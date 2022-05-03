@@ -1,0 +1,23 @@
+@N: CD630 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":95:7:95:11|Synthesizing work.pidro.struct.
+@W: CD277 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":135:3:135:7|Port direction mismatch between component and entity
+@N: CD630 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":60:7:60:17|Synthesizing work.spi_shifter.rtl.
+@W: CG296 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":74:1:74:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":77:31:77:35|Referenced variable input is not in sensitivity list.
+Post processing for work.spi_shifter.rtl
+@A: CL282 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":76:2:76:3|Feedback mux created for signal SDO. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Post processing for work.pidro.struct
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":102:3:102:5|Input X_A is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":103:3:103:5|Input X_B is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":104:3:104:5|Input X_R is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":105:3:105:5|Input Y_A is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":106:3:106:5|Input Y_B is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":107:3:107:5|Input Y_R is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":108:3:108:5|Input Z_A is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":109:3:109:5|Input Z_B is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":110:3:110:5|Input Z_R is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":111:3:111:5|Input A_A is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":112:3:112:5|Input A_B is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":113:3:113:5|Input A_R is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":114:3:114:5|Input B_A is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":115:3:115:5|Input B_B is unused.
+@N: CL159 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":116:3:116:5|Input B_R is unused.

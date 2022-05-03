@@ -1,0 +1,1830 @@
+12:00:42 PM
+"D:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "PiDRO_syn.prj" -log "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: MAIN-PC
+
+# Sun Feb 06 19:38:05 2022
+
+#Implementation: PiDRO_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\spi_slave.vhd":48:7:48:15|Top entity is set to spi_slave.
+VHDL syntax check successful!
+@N: CD630 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\spi_slave.vhd":48:7:48:15|Synthesizing work.spi_slave.rtl_arch.
+Post processing for work.spi_slave.rtl_arch
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 06 19:38:05 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\spi_slave.vhd":48:7:48:15|Selected library: work cell: spi_slave view rtl_arch as top level
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\spi_slave.vhd":48:7:48:15|Selected library: work cell: spi_slave view rtl_arch as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 06 19:38:05 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 06 19:38:05 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\spi_slave.vhd":48:7:48:15|Selected library: work cell: spi_slave view rtl_arch as top level
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\spi_slave.vhd":48:7:48:15|Selected library: work cell: spi_slave view rtl_arch as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 06 19:38:07 2022
+
+###########################################################]
+Pre-mapping Report
+
+# Sun Feb 06 19:38:07 2022
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO_scck.rpt 
+Printing clock  summary report in "D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=0  set on top level netlist spi_slave
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start                   Requested     Requested     Clock        Clock                     Clock
+Clock                   Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------
+spi_slave|i_sclk        162.8 MHz     6.144         inferred     Autoconstr_clkgroup_1     62   
+spi_slave|i_sys_clk     357.3 MHz     2.798         inferred     Autoconstr_clkgroup_0     63   
+================================================================================================
+
+@W: MT529 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":265:8:265:9|Found inferred clock spi_slave|i_sys_clk which controls 63 sequential elements including rx_done_reg2_i. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":206:8:206:9|Found inferred clock spi_slave|i_sclk which controls 62 sequential elements including rx_data_count_pos_sclk_i[5:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Feb 06 19:38:07 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Feb 06 19:38:07 2022
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 135MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.77ns		 181 /       125
+   2		0h:00m:00s		    -2.77ns		 164 /       125
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":419:8:419:9|Replicating instance tx_data_count_pos_sclk_i[2] (in view: work.spi_slave(rtl_arch)) with 20 loads 2 times to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":419:8:419:9|Replicating instance tx_data_count_pos_sclk_i[3] (in view: work.spi_slave(rtl_arch)) with 11 loads 1 time to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":398:8:398:9|Replicating instance tx_data_count_neg_sclk_i[2] (in view: work.spi_slave(rtl_arch)) with 16 loads 1 time to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":435:8:435:9|Replicating instance o_miso_m2_ns (in view: work.spi_slave(rtl_arch)) with 2 loads 1 time(s) to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 5 LUTs via timing driven replication
+
+   3		0h:00m:00s		    -2.12ns		 172 /       129
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":398:8:398:9|Replicating instance tx_data_count_neg_sclk_i[3] (in view: work.spi_slave(rtl_arch)) with 14 loads 2 times to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+
+   4		0h:00m:00s		    -2.12ns		 175 /       131
+@N: FX1016 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":73:8:73:13|SB_GB_IO inserted on the port i_sclk.
+@N: FX1016 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":52:8:52:16|SB_GB_IO inserted on the port i_sys_clk.
+@N: FX1016 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\spi_slave.vhd":53:8:53:16|SB_GB_IO inserted on the port i_sys_rst.
+@N: FX1017 :|SB_GB inserted on the net un7_i_ssn.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 131 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+==================================== Non-Gated/Non-Generated Clocks =====================================
+Clock Tree ID     Driving Element          Drive Element Type     Fanout     Sample Instance             
+---------------------------------------------------------------------------------------------------------
+@K:CKID0001       i_sclk_ibuf_gb_io        SB_GB_IO               68         rx_shift_data_pos_sclk_i[10]
+@K:CKID0002       i_sys_clk_ibuf_gb_io     SB_GB_IO               63         rxdata_reg_i[0]             
+=========================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 146MB)
+
+Writing Analyst data base D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 146MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 146MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+@W: MT420 |Found inferred clock spi_slave|i_sys_clk with period 5.57ns. Please declare a user-defined clock on object "p:i_sys_clk"
+@W: MT420 |Found inferred clock spi_slave|i_sclk with period 10.83ns. Please declare a user-defined clock on object "p:i_sclk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Feb 06 19:38:10 2022
+#
+
+
+Top view:               spi_slave
+Requested Frequency:    92.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.912
+
+                        Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock          Frequency     Frequency     Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------
+spi_slave|i_sclk        92.3 MHz      78.5 MHz      10.833        12.745        -1.912     inferred     Autoconstr_clkgroup_1
+spi_slave|i_sys_clk     179.5 MHz     152.6 MHz     5.571         6.555         -0.983     inferred     Autoconstr_clkgroup_0
+=============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                    |    rise  to  rise    |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------
+Starting             Ending               |  constraint  slack   |  constraint  slack   |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------
+spi_slave|i_sys_clk  spi_slave|i_sys_clk  |  5.571       -0.983  |  No paths    -       |  No paths    -      |  No paths    -    
+spi_slave|i_sys_clk  spi_slave|i_sclk     |  Diff grp    -       |  No paths    -       |  Diff grp    -      |  No paths    -    
+spi_slave|i_sclk     spi_slave|i_sys_clk  |  Diff grp    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+spi_slave|i_sclk     spi_slave|i_sclk     |  10.833      -1.726  |  10.833      -1.912  |  No paths    -      |  No paths    -    
+==================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: spi_slave|i_sclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                     Starting                                                                       Arrival           
+Instance                             Reference            Type         Pin     Net                                  Time        Slack 
+                                     Clock                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_3_rep1      spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i_3_rep1      0.796       -1.912
+tx_data_count_neg_sclk_i_fast[2]     spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i_fast[2]     0.796       -1.871
+tx_data_count_neg_sclk_i_fast[3]     spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i_fast[3]     0.796       -1.839
+tx_data_count_pos_sclk_i_fast[2]     spi_slave|i_sclk     SB_DFFR      Q       tx_data_count_pos_sclk_i_fast[2]     0.796       -1.726
+tx_data_count_pos_sclk_i_fast[3]     spi_slave|i_sclk     SB_DFFR      Q       tx_data_count_pos_sclk_i_fast[3]     0.796       -1.653
+tx_data_count_neg_sclk_i[2]          spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i[2]          0.796       0.017 
+tx_data_count_pos_sclk_i[3]          spi_slave|i_sclk     SB_DFFR      Q       tx_data_count_pos_sclk_i[3]          0.796       0.017 
+tx_data_count_neg_sclk_i[3]          spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i[3]          0.796       0.090 
+tx_data_count_pos_sclk_i_2_rep1      spi_slave|i_sclk     SB_DFFR      Q       tx_data_count_pos_sclk_i_2_rep1      0.796       0.090 
+rx_data_count_neg_sclk_i[0]          spi_slave|i_sclk     SB_DFFNR     Q       rx_data_count_neg_sclk_i[0]          0.796       0.214 
+======================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                                      Required           
+Instance                        Reference            Type         Pin     Net                                 Time         Slack 
+                                Clock                                                                                            
+---------------------------------------------------------------------------------------------------------------------------------
+miso_11_i                       spi_slave|i_sclk     SB_DFFNS     D       miso_11_i_3                         10.678       -1.912
+miso_01_i                       spi_slave|i_sclk     SB_DFFS      D       o_miso_m2_rep1                      10.678       -1.726
+rx_data_count_neg_sclk_i[3]     spi_slave|i_sclk     SB_DFFNR     D       rx_data_count_neg_sclk_i_2[3]       10.678       0.214 
+rx_data_count_neg_sclk_i[4]     spi_slave|i_sclk     SB_DFFNR     D       rx_data_count_neg_sclk_i_RNO[4]     10.678       0.214 
+rx_data_count_pos_sclk_i[2]     spi_slave|i_sclk     SB_DFFR      D       rx_data_count_pos_sclk_i_4[2]       10.678       0.214 
+rx_data_count_pos_sclk_i[3]     spi_slave|i_sclk     SB_DFFR      D       rx_data_count_pos_sclk_i_4[3]       10.678       0.224 
+rx_data_count_neg_sclk_i[5]     spi_slave|i_sclk     SB_DFFNR     D       rx_data_count_neg_sclk_i_RNO[5]     10.678       0.307 
+rx_data_count_pos_sclk_i[4]     spi_slave|i_sclk     SB_DFFR      D       rx_data_count_pos_sclk_i_RNO[4]     10.678       0.307 
+tx_data_count_neg_sclk_i[4]     spi_slave|i_sclk     SB_DFFNR     D       tx_data_count_neg_sclk_i_RNO[4]     10.678       2.050 
+tx_data_count_pos_sclk_i[4]     spi_slave|i_sclk     SB_DFFR      D       tx_data_count_pos_sclk_i_RNO[4]     10.678       2.050 
+=================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.590
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.912
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_3_rep1 / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_3_rep1          SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_3_rep1          Net          -        -       1.599     -           4         
+txdata_reg_i_RNINS731[7]                 SB_LUT4      I0       In      -         2.395       -         
+txdata_reg_i_RNINS731[7]                 SB_LUT4      O        Out     0.661     3.056       -         
+miso_00_i_2_7_am_1                       Net          -        -       1.371     -           1         
+txdata_reg_i_RNIM51N1[3]                 SB_LUT4      I0       In      -         4.427       -         
+txdata_reg_i_RNIM51N1[3]                 SB_LUT4      O        Out     0.661     5.089       -         
+txdata_reg_i_RNIM51N1[3]                 Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      I0       In      -         6.460       -         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      O        Out     0.661     7.121       -         
+miso_00_i_2_15_ns_1                      Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      I2       In      -         8.492       -         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      O        Out     0.558     9.050       -         
+miso_00_i_2                              Net          -        -       1.371     -           2         
+miso_11_i_RNO                            SB_LUT4      I0       In      -         10.422      -         
+miso_11_i_RNO                            SB_LUT4      O        Out     0.661     11.083      -         
+miso_11_i_3                              Net          -        -       1.507     -           1         
+miso_11_i                                SB_DFFNS     D        In      -         12.590      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.745 is 4.155(32.6%) logic and 8.590(67.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.549
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.870
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_fast[2] / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_fast[2]         SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_fast[2]         Net          -        -       1.599     -           6         
+txdata_reg_i_RNIJTHK[1]                  SB_LUT4      I0       In      -         2.395       -         
+txdata_reg_i_RNIJTHK[1]                  SB_LUT4      O        Out     0.661     3.056       -         
+miso_00_i_1_10_ns_1                      Net          -        -       1.371     -           1         
+txdata_reg_i_RNIMAB81[5]                 SB_LUT4      I0       In      -         4.427       -         
+txdata_reg_i_RNIMAB81[5]                 SB_LUT4      O        Out     0.661     5.089       -         
+N_150                                    Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNIFDB43[1]     SB_LUT4      I0       In      -         6.460       -         
+tx_data_count_neg_sclk_i_RNIFDB43[1]     SB_LUT4      O        Out     0.661     7.121       -         
+N_154                                    Net          -        -       1.371     -           3         
+miso_11_i_RNO_0                          SB_LUT4      I1       In      -         8.492       -         
+miso_11_i_RNO_0                          SB_LUT4      O        Out     0.589     9.082       -         
+miso_11_i_RNO_0                          Net          -        -       1.371     -           1         
+miso_11_i_RNO                            SB_LUT4      I1       In      -         10.453      -         
+miso_11_i_RNO                            SB_LUT4      O        Out     0.589     11.042      -         
+miso_11_i_3                              Net          -        -       1.507     -           1         
+miso_11_i                                SB_DFFNS     D        In      -         12.549      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.704 is 4.114(32.4%) logic and 8.590(67.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.518
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.839
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_fast[3] / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_fast[3]              SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_fast[3]              Net          -        -       1.599     -           4         
+txdata_reg_i_RNI01NA[0]                       SB_LUT4      I0       In      -         2.395       -         
+txdata_reg_i_RNI01NA[0]                       SB_LUT4      O        Out     0.661     3.056       -         
+txdata_reg_i_RNI01NA[0]                       Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_fast_RNI316I1[2]     SB_LUT4      I0       In      -         4.427       -         
+tx_data_count_neg_sclk_i_fast_RNI316I1[2]     SB_LUT4      O        Out     0.661     5.089       -         
+miso_00_i_1_7_ns_1                            Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNIAMNU2[1]          SB_LUT4      I2       In      -         6.460       -         
+tx_data_count_neg_sclk_i_RNIAMNU2[1]          SB_LUT4      O        Out     0.558     7.018       -         
+N_147                                         Net          -        -       1.371     -           3         
+miso_11_i_RNO_0                               SB_LUT4      I0       In      -         8.389       -         
+miso_11_i_RNO_0                               SB_LUT4      O        Out     0.661     9.050       -         
+miso_11_i_RNO_0                               Net          -        -       1.371     -           1         
+miso_11_i_RNO                                 SB_LUT4      I1       In      -         10.422      -         
+miso_11_i_RNO                                 SB_LUT4      O        Out     0.589     11.011      -         
+miso_11_i_3                                   Net          -        -       1.507     -           1         
+miso_11_i                                     SB_DFFNS     D        In      -         12.518      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 12.673 is 4.083(32.2%) logic and 8.590(67.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.518
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.839
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_3_rep1 / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_3_rep1          SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_3_rep1          Net          -        -       1.599     -           4         
+txdata_reg_i_RNIJO731[5]                 SB_LUT4      I0       In      -         2.395       -         
+txdata_reg_i_RNIJO731[5]                 SB_LUT4      O        Out     0.661     3.056       -         
+miso_00_i_2_7_bm_1                       Net          -        -       1.371     -           1         
+txdata_reg_i_RNI7U291[1]                 SB_LUT4      I0       In      -         4.427       -         
+txdata_reg_i_RNI7U291[1]                 SB_LUT4      O        Out     0.661     5.089       -         
+txdata_reg_i_RNI7U291[1]                 Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      I1       In      -         6.460       -         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      O        Out     0.589     7.049       -         
+miso_00_i_2_15_ns_1                      Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      I2       In      -         8.420       -         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      O        Out     0.558     8.978       -         
+miso_00_i_2                              Net          -        -       1.371     -           2         
+miso_11_i_RNO                            SB_LUT4      I0       In      -         10.349      -         
+miso_11_i_RNO                            SB_LUT4      O        Out     0.661     11.011      -         
+miso_11_i_3                              Net          -        -       1.507     -           1         
+miso_11_i                                SB_DFFNS     D        In      -         12.518      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.673 is 4.083(32.2%) logic and 8.590(67.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.518
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.839
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_fast[2] / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_fast[2]         SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_fast[2]         Net          -        -       1.599     -           6         
+txdata_reg_i_RNINS731[7]                 SB_LUT4      I1       In      -         2.395       -         
+txdata_reg_i_RNINS731[7]                 SB_LUT4      O        Out     0.589     2.984       -         
+miso_00_i_2_7_am_1                       Net          -        -       1.371     -           1         
+txdata_reg_i_RNIM51N1[3]                 SB_LUT4      I0       In      -         4.355       -         
+txdata_reg_i_RNIM51N1[3]                 SB_LUT4      O        Out     0.661     5.017       -         
+txdata_reg_i_RNIM51N1[3]                 Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      I0       In      -         6.388       -         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      O        Out     0.661     7.049       -         
+miso_00_i_2_15_ns_1                      Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      I2       In      -         8.420       -         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      O        Out     0.558     8.978       -         
+miso_00_i_2                              Net          -        -       1.371     -           2         
+miso_11_i_RNO                            SB_LUT4      I0       In      -         10.349      -         
+miso_11_i_RNO                            SB_LUT4      O        Out     0.661     11.011      -         
+miso_11_i_3                              Net          -        -       1.507     -           1         
+miso_11_i                                SB_DFFNS     D        In      -         12.518      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.673 is 4.083(32.2%) logic and 8.590(67.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: spi_slave|i_sys_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                        Arrival           
+Instance           Reference               Type         Pin     Net                Time        Slack 
+                   Clock                                                                             
+-----------------------------------------------------------------------------------------------------
+rx_done_reg2_i     spi_slave|i_sys_clk     SB_DFFR      Q       rx_done_reg2_i     0.796       -0.983
+tx_done_reg2_i     spi_slave|i_sys_clk     SB_DFFR      Q       tx_done_reg2_i     0.796       -0.983
+rx_done_reg3_i     spi_slave|i_sys_clk     SB_DFFR      Q       rx_done_reg3_i     0.796       -0.911
+tx_done_reg3_i     spi_slave|i_sys_clk     SB_DFFR      Q       tx_done_reg3_i     0.796       -0.911
+data_valid_i       spi_slave|i_sys_clk     SB_DFFER     Q       data_valid_i       0.796       0.853 
+rx_ready_i         spi_slave|i_sys_clk     SB_DFFR      Q       o_rx_ready_c       0.796       0.956 
+tx_ready_i         spi_slave|i_sys_clk     SB_DFFS      Q       o_tx_ready_c       0.796       0.956 
+rx_done_reg1_i     spi_slave|i_sys_clk     SB_DFFR      Q       rx_done_reg1_i     0.796       1.008 
+rx_error_i         spi_slave|i_sys_clk     SB_DFFR      Q       rx_error_i         0.796       1.049 
+tx_error_i         spi_slave|i_sys_clk     SB_DFFR      Q       tx_error_i         0.796       1.049 
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                          Required           
+Instance            Reference               Type         Pin     Net                                  Time         Slack 
+                    Clock                                                                                                
+-------------------------------------------------------------------------------------------------------------------------
+rx_ready_i          spi_slave|i_sys_clk     SB_DFFR      D       rx_ready_i                           5.416        -0.983
+tx_ready_i          spi_slave|i_sys_clk     SB_DFFS      D       tx_ready_i                           5.416        -0.983
+o_tx_ack            spi_slave|i_sys_clk     SB_DFFR      D       tx_ack_proc\.un8_tx_done_pulse_i     5.416        0.853 
+o_tx_no_ack         spi_slave|i_sys_clk     SB_DFFR      D       tx_ack_proc\.un101_i_ssn             5.416        0.853 
+rx_error_i          spi_slave|i_sys_clk     SB_DFFR      D       rx_error_i_0                         5.416        0.956 
+tx_error_i          spi_slave|i_sys_clk     SB_DFFR      D       tx_error_i_0                         5.416        0.956 
+rxdata_reg_i[0]     spi_slave|i_sys_clk     SB_DFFER     E       rx_done_reg1_i_RNIBOP2               5.571        1.008 
+rxdata_reg_i[1]     spi_slave|i_sys_clk     SB_DFFER     E       rx_done_reg1_i_RNIBOP2               5.571        1.008 
+rxdata_reg_i[2]     spi_slave|i_sys_clk     SB_DFFER     E       rx_done_reg1_i_RNIBOP2               5.571        1.008 
+rxdata_reg_i[3]     spi_slave|i_sys_clk     SB_DFFER     E       rx_done_reg1_i_RNIBOP2               5.571        1.008 
+=========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      6.399
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.983
+
+    Number of logic level(s):                2
+    Starting point:                          rx_done_reg2_i / Q
+    Ending point:                            rx_ready_i / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+rx_done_reg2_i         SB_DFFR     Q        Out     0.796     0.796       -         
+rx_done_reg2_i         Net         -        -       1.599     -           3         
+rx_ready_i_RNO_0       SB_LUT4     I0       In      -         2.395       -         
+rx_ready_i_RNO_0       SB_LUT4     O        Out     0.661     3.056       -         
+un4_rx_done_reg2_i     Net         -        -       1.371     -           1         
+rx_ready_i_RNO         SB_LUT4     I3       In      -         4.427       -         
+rx_ready_i_RNO         SB_LUT4     O        Out     0.465     4.893       -         
+rx_ready_i             Net         -        -       1.507     -           1         
+rx_ready_i             SB_DFFR     D        In      -         6.399       -         
+====================================================================================
+Total path delay (propagation time + setup) of 6.555 is 2.078(31.7%) logic and 4.477(68.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      6.399
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.983
+
+    Number of logic level(s):                2
+    Starting point:                          tx_done_reg2_i / Q
+    Ending point:                            tx_ready_i / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                             Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+tx_done_reg2_i                   SB_DFFR     Q        Out     0.796     0.796       -         
+tx_done_reg2_i                   Net         -        -       1.599     -           4         
+tx_ready_i_RNO_0                 SB_LUT4     I0       In      -         2.395       -         
+tx_ready_i_RNO_0                 SB_LUT4     O        Out     0.661     3.056       -         
+tx_ready\.un4_tx_done_reg2_i     Net         -        -       1.371     -           1         
+tx_ready_i_RNO                   SB_LUT4     I3       In      -         4.427       -         
+tx_ready_i_RNO                   SB_LUT4     O        Out     0.465     4.893       -         
+tx_ready_i                       Net         -        -       1.507     -           1         
+tx_ready_i                       SB_DFFS     D        In      -         6.399       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 6.555 is 2.078(31.7%) logic and 4.477(68.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      6.327
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.911
+
+    Number of logic level(s):                2
+    Starting point:                          rx_done_reg3_i / Q
+    Ending point:                            rx_ready_i / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+rx_done_reg3_i         SB_DFFR     Q        Out     0.796     0.796       -         
+rx_done_reg3_i         Net         -        -       1.599     -           1         
+rx_ready_i_RNO_0       SB_LUT4     I1       In      -         2.395       -         
+rx_ready_i_RNO_0       SB_LUT4     O        Out     0.589     2.984       -         
+un4_rx_done_reg2_i     Net         -        -       1.371     -           1         
+rx_ready_i_RNO         SB_LUT4     I3       In      -         4.355       -         
+rx_ready_i_RNO         SB_LUT4     O        Out     0.465     4.820       -         
+rx_ready_i             Net         -        -       1.507     -           1         
+rx_ready_i             SB_DFFR     D        In      -         6.327       -         
+====================================================================================
+Total path delay (propagation time + setup) of 6.482 is 2.005(30.9%) logic and 4.477(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      6.327
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.911
+
+    Number of logic level(s):                2
+    Starting point:                          tx_done_reg3_i / Q
+    Ending point:                            tx_ready_i / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                             Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+tx_done_reg3_i                   SB_DFFR     Q        Out     0.796     0.796       -         
+tx_done_reg3_i                   Net         -        -       1.599     -           3         
+tx_ready_i_RNO_0                 SB_LUT4     I1       In      -         2.395       -         
+tx_ready_i_RNO_0                 SB_LUT4     O        Out     0.589     2.984       -         
+tx_ready\.un4_tx_done_reg2_i     Net         -        -       1.371     -           1         
+tx_ready_i_RNO                   SB_LUT4     I3       In      -         4.355       -         
+tx_ready_i_RNO                   SB_LUT4     O        Out     0.465     4.820       -         
+tx_ready_i                       Net         -        -       1.507     -           1         
+tx_ready_i                       SB_DFFS     D        In      -         6.327       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 6.482 is 2.005(30.9%) logic and 4.477(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      4.563
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.853
+
+    Number of logic level(s):                1
+    Starting point:                          data_valid_i / Q
+    Ending point:                            o_tx_ack / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+data_valid_i                         SB_DFFER     Q        Out     0.796     0.796       -         
+data_valid_i                         Net          -        -       1.599     -           2         
+o_tx_ack_RNO                         SB_LUT4      I0       In      -         2.395       -         
+o_tx_ack_RNO                         SB_LUT4      O        Out     0.661     3.056       -         
+tx_ack_proc\.un8_tx_done_pulse_i     Net          -        -       1.507     -           1         
+o_tx_ack                             SB_DFFR      D        In      -         4.563       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 4.718 is 1.612(34.2%) logic and 3.106(65.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+---------------------------------------
+Resource Usage Report for spi_slave 
+
+Mapping to part: ice40lp384qn32
+Cell usage:
+SB_DFFER        50 uses
+SB_DFFNER       16 uses
+SB_DFFNR        17 uses
+SB_DFFNS        1 use
+SB_DFFR         45 uses
+SB_DFFS         2 uses
+SB_GB           1 use
+SB_LUT4         173 uses
+
+I/O ports: 51
+I/O primitives: 51
+SB_GB_IO       3 uses
+SB_IO          48 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   131 (34%)
+Total load per clock:
+   spi_slave|i_sys_clk: 1
+   spi_slave|i_sclk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 173 (45%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 173 = 173 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 27MB peak: 146MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sun Feb 06 19:38:10 2022
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation PiDRO_Implmnt its sbt path: D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 6 seconds
+
+
+"D:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\edifparser.exe" "D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev" "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.edf " "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist" "-pQN32" -c --devicename iCE40LP384
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:30:22
+
+Parsing edif file: D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.edf...
+start to read sdc/scf file D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.scf
+sdc_reader OK D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.scf
+Stored edif netlist at D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-spi_slave...
+
+write Timing Constraint to D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: spi_slave
+
+EDF Parser run-time: 4 (sec)
+edif parser succeed.
+
+
+"D:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-spi_slave" --outdir "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer" --device-file "D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev" --package QN32 --deviceMarketName iCE40LP384 --sdc-file "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40LP384.lib" --effort_level std --out-sdc-file "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer\spi_slave_pl.sdc"
+starting placerrunning placerExecuting : D:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-spi_slave --outdir D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer --device-file D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev --package QN32 --deviceMarketName iCE40LP384 --sdc-file D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40LP384.lib --effort_level std --out-sdc-file D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer\spi_slave_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:55:52
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev
+Package              - QN32
+Design database      - D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-spi_slave
+SDC file             - D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer
+Timing library       - D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40LP384.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-spi_slave/BFPGA_DESIGN_ep
+I2065: Reading device file : D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	173
+    Number of DFFs      	:	131
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	0
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	48
+    Number of GBIOs     	:	3
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+
+
+Phase 1
+I2077: Start design legalization
+I3013: Unable to fit the design into the selected device/package
+DEVICE IO Count:
+ (a) Regular IOs (SB_IO/SB_GB_IO) on the chip  - 17
+ (b) SPI IOs on the chip                       - 4
+                                               ------
+ Total IO Capacity of Chip (a + b)             - 21
+                                               ------
+DESIGN IO Count:
+ (a) Regular IOs(auto placement)            - 51
+ (b) SPI Constrained IOs in the design      - 0
+                                            ------
+ Total IO count of the design (a + b)       - 51
+                                            ------
+E2081: Feasibility check for IO Placement failed
+E2080: Design legalizer failed: Design can not be legalized
+E2055: Error while doing placement of the design
+"D:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "PiDRO_syn.prj" -log "PiDRO_Implmnt/PiDRO.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of PiDRO_Implmnt/PiDRO.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: MAIN-PC
+
+# Sun Feb 06 19:42:32 2022
+
+#Implementation: PiDRO_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhd":48:7:48:15|Top entity is set to spi_slave.
+File D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\spi_slave.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\spi_slave.vhd changed - recompiling
+@N: CD630 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhd":48:7:48:15|Synthesizing work.spi_slave.rtl_arch.
+Post processing for work.spi_slave.rtl_arch
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 06 19:42:32 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhd":48:7:48:15|Selected library: work cell: spi_slave view rtl_arch as top level
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhd":48:7:48:15|Selected library: work cell: spi_slave view rtl_arch as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 06 19:42:32 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 06 19:42:32 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_comp.srs changed - recompiling
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhd":48:7:48:15|Selected library: work cell: spi_slave view rtl_arch as top level
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhd":48:7:48:15|Selected library: work cell: spi_slave view rtl_arch as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 06 19:42:33 2022
+
+###########################################################]
+Pre-mapping Report
+
+# Sun Feb 06 19:42:33 2022
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO_scck.rpt 
+Printing clock  summary report in "D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=0  set on top level netlist spi_slave
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start                   Requested     Requested     Clock        Clock                     Clock
+Clock                   Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------
+spi_slave|i_sclk        162.8 MHz     6.144         inferred     Autoconstr_clkgroup_1     62   
+spi_slave|i_sys_clk     357.3 MHz     2.798         inferred     Autoconstr_clkgroup_0     63   
+================================================================================================
+
+@W: MT529 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":265:8:265:9|Found inferred clock spi_slave|i_sys_clk which controls 63 sequential elements including rx_done_reg2_i. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":206:8:206:9|Found inferred clock spi_slave|i_sclk which controls 62 sequential elements including rx_data_count_pos_sclk_i[5:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Feb 06 19:42:34 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Feb 06 19:42:34 2022
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 135MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.77ns		 181 /       125
+   2		0h:00m:00s		    -2.77ns		 164 /       125
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":419:8:419:9|Replicating instance tx_data_count_pos_sclk_i[2] (in view: work.spi_slave(rtl_arch)) with 20 loads 2 times to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":419:8:419:9|Replicating instance tx_data_count_pos_sclk_i[3] (in view: work.spi_slave(rtl_arch)) with 11 loads 1 time to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":398:8:398:9|Replicating instance tx_data_count_neg_sclk_i[2] (in view: work.spi_slave(rtl_arch)) with 16 loads 1 time to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":435:8:435:9|Replicating instance o_miso_m2_ns (in view: work.spi_slave(rtl_arch)) with 2 loads 1 time(s) to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 5 LUTs via timing driven replication
+
+   3		0h:00m:01s		    -2.12ns		 172 /       129
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":398:8:398:9|Replicating instance tx_data_count_neg_sclk_i[3] (in view: work.spi_slave(rtl_arch)) with 14 loads 2 times to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+
+   4		0h:00m:01s		    -2.12ns		 175 /       131
+@N: FX1016 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":73:8:73:13|SB_GB_IO inserted on the port i_sclk.
+@N: FX1016 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":52:8:52:16|SB_GB_IO inserted on the port i_sys_clk.
+@N: FX1016 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhd":53:8:53:16|SB_GB_IO inserted on the port i_sys_rst.
+@N: FX1017 :|SB_GB inserted on the net un7_i_ssn.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 131 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+==================================== Non-Gated/Non-Generated Clocks =====================================
+Clock Tree ID     Driving Element          Drive Element Type     Fanout     Sample Instance             
+---------------------------------------------------------------------------------------------------------
+@K:CKID0001       i_sclk_ibuf_gb_io        SB_GB_IO               68         rx_shift_data_pos_sclk_i[10]
+@K:CKID0002       i_sys_clk_ibuf_gb_io     SB_GB_IO               63         rxdata_reg_i[0]             
+=========================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 146MB)
+
+Writing Analyst data base D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 146MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 146MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+@W: MT420 |Found inferred clock spi_slave|i_sys_clk with period 5.57ns. Please declare a user-defined clock on object "p:i_sys_clk"
+@W: MT420 |Found inferred clock spi_slave|i_sclk with period 10.83ns. Please declare a user-defined clock on object "p:i_sclk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Feb 06 19:42:35 2022
+#
+
+
+Top view:               spi_slave
+Requested Frequency:    92.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.912
+
+                        Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock          Frequency     Frequency     Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------
+spi_slave|i_sclk        92.3 MHz      78.5 MHz      10.833        12.745        -1.912     inferred     Autoconstr_clkgroup_1
+spi_slave|i_sys_clk     179.5 MHz     152.6 MHz     5.571         6.555         -0.983     inferred     Autoconstr_clkgroup_0
+=============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                    |    rise  to  rise    |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------
+Starting             Ending               |  constraint  slack   |  constraint  slack   |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------
+spi_slave|i_sys_clk  spi_slave|i_sys_clk  |  5.571       -0.983  |  No paths    -       |  No paths    -      |  No paths    -    
+spi_slave|i_sys_clk  spi_slave|i_sclk     |  Diff grp    -       |  No paths    -       |  Diff grp    -      |  No paths    -    
+spi_slave|i_sclk     spi_slave|i_sys_clk  |  Diff grp    -       |  No paths    -       |  No paths    -      |  Diff grp    -    
+spi_slave|i_sclk     spi_slave|i_sclk     |  10.833      -1.726  |  10.833      -1.912  |  No paths    -      |  No paths    -    
+==================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: spi_slave|i_sclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                     Starting                                                                       Arrival           
+Instance                             Reference            Type         Pin     Net                                  Time        Slack 
+                                     Clock                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_3_rep1      spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i_3_rep1      0.796       -1.912
+tx_data_count_neg_sclk_i_fast[2]     spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i_fast[2]     0.796       -1.871
+tx_data_count_neg_sclk_i_fast[3]     spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i_fast[3]     0.796       -1.839
+tx_data_count_pos_sclk_i_fast[2]     spi_slave|i_sclk     SB_DFFR      Q       tx_data_count_pos_sclk_i_fast[2]     0.796       -1.726
+tx_data_count_pos_sclk_i_fast[3]     spi_slave|i_sclk     SB_DFFR      Q       tx_data_count_pos_sclk_i_fast[3]     0.796       -1.653
+tx_data_count_neg_sclk_i[2]          spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i[2]          0.796       0.017 
+tx_data_count_pos_sclk_i[3]          spi_slave|i_sclk     SB_DFFR      Q       tx_data_count_pos_sclk_i[3]          0.796       0.017 
+tx_data_count_neg_sclk_i[3]          spi_slave|i_sclk     SB_DFFNR     Q       tx_data_count_neg_sclk_i[3]          0.796       0.090 
+tx_data_count_pos_sclk_i_2_rep1      spi_slave|i_sclk     SB_DFFR      Q       tx_data_count_pos_sclk_i_2_rep1      0.796       0.090 
+rx_data_count_neg_sclk_i[0]          spi_slave|i_sclk     SB_DFFNR     Q       rx_data_count_neg_sclk_i[0]          0.796       0.214 
+======================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                                      Required           
+Instance                        Reference            Type         Pin     Net                                 Time         Slack 
+                                Clock                                                                                            
+---------------------------------------------------------------------------------------------------------------------------------
+miso_11_i                       spi_slave|i_sclk     SB_DFFNS     D       miso_11_i_3                         10.678       -1.912
+miso_01_i                       spi_slave|i_sclk     SB_DFFS      D       o_miso_m2_rep1                      10.678       -1.726
+rx_data_count_neg_sclk_i[3]     spi_slave|i_sclk     SB_DFFNR     D       rx_data_count_neg_sclk_i_2[3]       10.678       0.214 
+rx_data_count_neg_sclk_i[4]     spi_slave|i_sclk     SB_DFFNR     D       rx_data_count_neg_sclk_i_RNO[4]     10.678       0.214 
+rx_data_count_pos_sclk_i[2]     spi_slave|i_sclk     SB_DFFR      D       rx_data_count_pos_sclk_i_4[2]       10.678       0.214 
+rx_data_count_pos_sclk_i[3]     spi_slave|i_sclk     SB_DFFR      D       rx_data_count_pos_sclk_i_4[3]       10.678       0.224 
+rx_data_count_neg_sclk_i[5]     spi_slave|i_sclk     SB_DFFNR     D       rx_data_count_neg_sclk_i_RNO[5]     10.678       0.307 
+rx_data_count_pos_sclk_i[4]     spi_slave|i_sclk     SB_DFFR      D       rx_data_count_pos_sclk_i_RNO[4]     10.678       0.307 
+tx_data_count_neg_sclk_i[4]     spi_slave|i_sclk     SB_DFFNR     D       tx_data_count_neg_sclk_i_RNO[4]     10.678       2.050 
+tx_data_count_pos_sclk_i[4]     spi_slave|i_sclk     SB_DFFR      D       tx_data_count_pos_sclk_i_RNO[4]     10.678       2.050 
+=================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.590
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.912
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_3_rep1 / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_3_rep1          SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_3_rep1          Net          -        -       1.599     -           4         
+txdata_reg_i_RNINS731[7]                 SB_LUT4      I0       In      -         2.395       -         
+txdata_reg_i_RNINS731[7]                 SB_LUT4      O        Out     0.661     3.056       -         
+miso_00_i_2_7_am_1                       Net          -        -       1.371     -           1         
+txdata_reg_i_RNIM51N1[3]                 SB_LUT4      I0       In      -         4.427       -         
+txdata_reg_i_RNIM51N1[3]                 SB_LUT4      O        Out     0.661     5.089       -         
+txdata_reg_i_RNIM51N1[3]                 Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      I0       In      -         6.460       -         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      O        Out     0.661     7.121       -         
+miso_00_i_2_15_ns_1                      Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      I2       In      -         8.492       -         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      O        Out     0.558     9.050       -         
+miso_00_i_2                              Net          -        -       1.371     -           2         
+miso_11_i_RNO                            SB_LUT4      I0       In      -         10.422      -         
+miso_11_i_RNO                            SB_LUT4      O        Out     0.661     11.083      -         
+miso_11_i_3                              Net          -        -       1.507     -           1         
+miso_11_i                                SB_DFFNS     D        In      -         12.590      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.745 is 4.155(32.6%) logic and 8.590(67.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.549
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.870
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_fast[2] / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_fast[2]         SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_fast[2]         Net          -        -       1.599     -           6         
+txdata_reg_i_RNIJTHK[1]                  SB_LUT4      I0       In      -         2.395       -         
+txdata_reg_i_RNIJTHK[1]                  SB_LUT4      O        Out     0.661     3.056       -         
+miso_00_i_1_10_ns_1                      Net          -        -       1.371     -           1         
+txdata_reg_i_RNIMAB81[5]                 SB_LUT4      I0       In      -         4.427       -         
+txdata_reg_i_RNIMAB81[5]                 SB_LUT4      O        Out     0.661     5.089       -         
+N_150                                    Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNIFDB43[1]     SB_LUT4      I0       In      -         6.460       -         
+tx_data_count_neg_sclk_i_RNIFDB43[1]     SB_LUT4      O        Out     0.661     7.121       -         
+N_154                                    Net          -        -       1.371     -           3         
+miso_11_i_RNO_0                          SB_LUT4      I1       In      -         8.492       -         
+miso_11_i_RNO_0                          SB_LUT4      O        Out     0.589     9.082       -         
+miso_11_i_RNO_0                          Net          -        -       1.371     -           1         
+miso_11_i_RNO                            SB_LUT4      I1       In      -         10.453      -         
+miso_11_i_RNO                            SB_LUT4      O        Out     0.589     11.042      -         
+miso_11_i_3                              Net          -        -       1.507     -           1         
+miso_11_i                                SB_DFFNS     D        In      -         12.549      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.704 is 4.114(32.4%) logic and 8.590(67.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.518
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.839
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_fast[3] / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_fast[3]              SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_fast[3]              Net          -        -       1.599     -           4         
+txdata_reg_i_RNI01NA[0]                       SB_LUT4      I0       In      -         2.395       -         
+txdata_reg_i_RNI01NA[0]                       SB_LUT4      O        Out     0.661     3.056       -         
+txdata_reg_i_RNI01NA[0]                       Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_fast_RNI316I1[2]     SB_LUT4      I0       In      -         4.427       -         
+tx_data_count_neg_sclk_i_fast_RNI316I1[2]     SB_LUT4      O        Out     0.661     5.089       -         
+miso_00_i_1_7_ns_1                            Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNIAMNU2[1]          SB_LUT4      I2       In      -         6.460       -         
+tx_data_count_neg_sclk_i_RNIAMNU2[1]          SB_LUT4      O        Out     0.558     7.018       -         
+N_147                                         Net          -        -       1.371     -           3         
+miso_11_i_RNO_0                               SB_LUT4      I0       In      -         8.389       -         
+miso_11_i_RNO_0                               SB_LUT4      O        Out     0.661     9.050       -         
+miso_11_i_RNO_0                               Net          -        -       1.371     -           1         
+miso_11_i_RNO                                 SB_LUT4      I1       In      -         10.422      -         
+miso_11_i_RNO                                 SB_LUT4      O        Out     0.589     11.011      -         
+miso_11_i_3                                   Net          -        -       1.507     -           1         
+miso_11_i                                     SB_DFFNS     D        In      -         12.518      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 12.673 is 4.083(32.2%) logic and 8.590(67.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.518
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.839
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_3_rep1 / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_3_rep1          SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_3_rep1          Net          -        -       1.599     -           4         
+txdata_reg_i_RNIJO731[5]                 SB_LUT4      I0       In      -         2.395       -         
+txdata_reg_i_RNIJO731[5]                 SB_LUT4      O        Out     0.661     3.056       -         
+miso_00_i_2_7_bm_1                       Net          -        -       1.371     -           1         
+txdata_reg_i_RNI7U291[1]                 SB_LUT4      I0       In      -         4.427       -         
+txdata_reg_i_RNI7U291[1]                 SB_LUT4      O        Out     0.661     5.089       -         
+txdata_reg_i_RNI7U291[1]                 Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      I1       In      -         6.460       -         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      O        Out     0.589     7.049       -         
+miso_00_i_2_15_ns_1                      Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      I2       In      -         8.420       -         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      O        Out     0.558     8.978       -         
+miso_00_i_2                              Net          -        -       1.371     -           2         
+miso_11_i_RNO                            SB_LUT4      I0       In      -         10.349      -         
+miso_11_i_RNO                            SB_LUT4      O        Out     0.661     11.011      -         
+miso_11_i_3                              Net          -        -       1.507     -           1         
+miso_11_i                                SB_DFFNS     D        In      -         12.518      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.673 is 4.083(32.2%) logic and 8.590(67.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.678
+
+    - Propagation time:                      12.518
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.839
+
+    Number of logic level(s):                5
+    Starting point:                          tx_data_count_neg_sclk_i_fast[2] / Q
+    Ending point:                            miso_11_i / D
+    The start point is clocked by            spi_slave|i_sclk [falling] on pin C
+    The end   point is clocked by            spi_slave|i_sclk [falling] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+tx_data_count_neg_sclk_i_fast[2]         SB_DFFNR     Q        Out     0.796     0.796       -         
+tx_data_count_neg_sclk_i_fast[2]         Net          -        -       1.599     -           6         
+txdata_reg_i_RNINS731[7]                 SB_LUT4      I1       In      -         2.395       -         
+txdata_reg_i_RNINS731[7]                 SB_LUT4      O        Out     0.589     2.984       -         
+miso_00_i_2_7_am_1                       Net          -        -       1.371     -           1         
+txdata_reg_i_RNIM51N1[3]                 SB_LUT4      I0       In      -         4.355       -         
+txdata_reg_i_RNIM51N1[3]                 SB_LUT4      O        Out     0.661     5.017       -         
+txdata_reg_i_RNIM51N1[3]                 Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      I0       In      -         6.388       -         
+tx_data_count_neg_sclk_i_RNI2T1A3[1]     SB_LUT4      O        Out     0.661     7.049       -         
+miso_00_i_2_15_ns_1                      Net          -        -       1.371     -           1         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      I2       In      -         8.420       -         
+tx_data_count_neg_sclk_i_RNI3S5Q5[0]     SB_LUT4      O        Out     0.558     8.978       -         
+miso_00_i_2                              Net          -        -       1.371     -           2         
+miso_11_i_RNO                            SB_LUT4      I0       In      -         10.349      -         
+miso_11_i_RNO                            SB_LUT4      O        Out     0.661     11.011      -         
+miso_11_i_3                              Net          -        -       1.507     -           1         
+miso_11_i                                SB_DFFNS     D        In      -         12.518      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.673 is 4.083(32.2%) logic and 8.590(67.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: spi_slave|i_sys_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                        Arrival           
+Instance           Reference               Type         Pin     Net                Time        Slack 
+                   Clock                                                                             
+-----------------------------------------------------------------------------------------------------
+rx_done_reg2_i     spi_slave|i_sys_clk     SB_DFFR      Q       rx_done_reg2_i     0.796       -0.983
+tx_done_reg2_i     spi_slave|i_sys_clk     SB_DFFR      Q       tx_done_reg2_i     0.796       -0.983
+rx_done_reg3_i     spi_slave|i_sys_clk     SB_DFFR      Q       rx_done_reg3_i     0.796       -0.911
+tx_done_reg3_i     spi_slave|i_sys_clk     SB_DFFR      Q       tx_done_reg3_i     0.796       -0.911
+data_valid_i       spi_slave|i_sys_clk     SB_DFFER     Q       data_valid_i       0.796       0.853 
+rx_ready_i         spi_slave|i_sys_clk     SB_DFFR      Q       o_rx_ready_c       0.796       0.956 
+tx_ready_i         spi_slave|i_sys_clk     SB_DFFS      Q       o_tx_ready_c       0.796       0.956 
+rx_done_reg1_i     spi_slave|i_sys_clk     SB_DFFR      Q       rx_done_reg1_i     0.796       1.008 
+rx_error_i         spi_slave|i_sys_clk     SB_DFFR      Q       rx_error_i         0.796       1.049 
+tx_error_i         spi_slave|i_sys_clk     SB_DFFR      Q       tx_error_i         0.796       1.049 
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                          Required           
+Instance            Reference               Type         Pin     Net                                  Time         Slack 
+                    Clock                                                                                                
+-------------------------------------------------------------------------------------------------------------------------
+rx_ready_i          spi_slave|i_sys_clk     SB_DFFR      D       rx_ready_i                           5.416        -0.983
+tx_ready_i          spi_slave|i_sys_clk     SB_DFFS      D       tx_ready_i                           5.416        -0.983
+o_tx_ack            spi_slave|i_sys_clk     SB_DFFR      D       tx_ack_proc\.un8_tx_done_pulse_i     5.416        0.853 
+o_tx_no_ack         spi_slave|i_sys_clk     SB_DFFR      D       tx_ack_proc\.un101_i_ssn             5.416        0.853 
+rx_error_i          spi_slave|i_sys_clk     SB_DFFR      D       rx_error_i_0                         5.416        0.956 
+tx_error_i          spi_slave|i_sys_clk     SB_DFFR      D       tx_error_i_0                         5.416        0.956 
+rxdata_reg_i[0]     spi_slave|i_sys_clk     SB_DFFER     E       rx_done_reg1_i_RNIBOP2               5.571        1.008 
+rxdata_reg_i[1]     spi_slave|i_sys_clk     SB_DFFER     E       rx_done_reg1_i_RNIBOP2               5.571        1.008 
+rxdata_reg_i[2]     spi_slave|i_sys_clk     SB_DFFER     E       rx_done_reg1_i_RNIBOP2               5.571        1.008 
+rxdata_reg_i[3]     spi_slave|i_sys_clk     SB_DFFER     E       rx_done_reg1_i_RNIBOP2               5.571        1.008 
+=========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      6.399
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.983
+
+    Number of logic level(s):                2
+    Starting point:                          rx_done_reg2_i / Q
+    Ending point:                            rx_ready_i / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+rx_done_reg2_i         SB_DFFR     Q        Out     0.796     0.796       -         
+rx_done_reg2_i         Net         -        -       1.599     -           3         
+rx_ready_i_RNO_0       SB_LUT4     I0       In      -         2.395       -         
+rx_ready_i_RNO_0       SB_LUT4     O        Out     0.661     3.056       -         
+un4_rx_done_reg2_i     Net         -        -       1.371     -           1         
+rx_ready_i_RNO         SB_LUT4     I3       In      -         4.427       -         
+rx_ready_i_RNO         SB_LUT4     O        Out     0.465     4.893       -         
+rx_ready_i             Net         -        -       1.507     -           1         
+rx_ready_i             SB_DFFR     D        In      -         6.399       -         
+====================================================================================
+Total path delay (propagation time + setup) of 6.555 is 2.078(31.7%) logic and 4.477(68.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      6.399
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.983
+
+    Number of logic level(s):                2
+    Starting point:                          tx_done_reg2_i / Q
+    Ending point:                            tx_ready_i / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                             Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+tx_done_reg2_i                   SB_DFFR     Q        Out     0.796     0.796       -         
+tx_done_reg2_i                   Net         -        -       1.599     -           4         
+tx_ready_i_RNO_0                 SB_LUT4     I0       In      -         2.395       -         
+tx_ready_i_RNO_0                 SB_LUT4     O        Out     0.661     3.056       -         
+tx_ready\.un4_tx_done_reg2_i     Net         -        -       1.371     -           1         
+tx_ready_i_RNO                   SB_LUT4     I3       In      -         4.427       -         
+tx_ready_i_RNO                   SB_LUT4     O        Out     0.465     4.893       -         
+tx_ready_i                       Net         -        -       1.507     -           1         
+tx_ready_i                       SB_DFFS     D        In      -         6.399       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 6.555 is 2.078(31.7%) logic and 4.477(68.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      6.327
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.911
+
+    Number of logic level(s):                2
+    Starting point:                          rx_done_reg3_i / Q
+    Ending point:                            rx_ready_i / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+rx_done_reg3_i         SB_DFFR     Q        Out     0.796     0.796       -         
+rx_done_reg3_i         Net         -        -       1.599     -           1         
+rx_ready_i_RNO_0       SB_LUT4     I1       In      -         2.395       -         
+rx_ready_i_RNO_0       SB_LUT4     O        Out     0.589     2.984       -         
+un4_rx_done_reg2_i     Net         -        -       1.371     -           1         
+rx_ready_i_RNO         SB_LUT4     I3       In      -         4.355       -         
+rx_ready_i_RNO         SB_LUT4     O        Out     0.465     4.820       -         
+rx_ready_i             Net         -        -       1.507     -           1         
+rx_ready_i             SB_DFFR     D        In      -         6.327       -         
+====================================================================================
+Total path delay (propagation time + setup) of 6.482 is 2.005(30.9%) logic and 4.477(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      6.327
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.911
+
+    Number of logic level(s):                2
+    Starting point:                          tx_done_reg3_i / Q
+    Ending point:                            tx_ready_i / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                             Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+tx_done_reg3_i                   SB_DFFR     Q        Out     0.796     0.796       -         
+tx_done_reg3_i                   Net         -        -       1.599     -           3         
+tx_ready_i_RNO_0                 SB_LUT4     I1       In      -         2.395       -         
+tx_ready_i_RNO_0                 SB_LUT4     O        Out     0.589     2.984       -         
+tx_ready\.un4_tx_done_reg2_i     Net         -        -       1.371     -           1         
+tx_ready_i_RNO                   SB_LUT4     I3       In      -         4.355       -         
+tx_ready_i_RNO                   SB_LUT4     O        Out     0.465     4.820       -         
+tx_ready_i                       Net         -        -       1.507     -           1         
+tx_ready_i                       SB_DFFS     D        In      -         6.327       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 6.482 is 2.005(30.9%) logic and 4.477(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.571
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.416
+
+    - Propagation time:                      4.563
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.853
+
+    Number of logic level(s):                1
+    Starting point:                          data_valid_i / Q
+    Ending point:                            o_tx_ack / D
+    The start point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+    The end   point is clocked by            spi_slave|i_sys_clk [rising] on pin C
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+data_valid_i                         SB_DFFER     Q        Out     0.796     0.796       -         
+data_valid_i                         Net          -        -       1.599     -           2         
+o_tx_ack_RNO                         SB_LUT4      I0       In      -         2.395       -         
+o_tx_ack_RNO                         SB_LUT4      O        Out     0.661     3.056       -         
+tx_ack_proc\.un8_tx_done_pulse_i     Net          -        -       1.507     -           1         
+o_tx_ack                             SB_DFFR      D        In      -         4.563       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 4.718 is 1.612(34.2%) logic and 3.106(65.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 146MB)
+
+---------------------------------------
+Resource Usage Report for spi_slave 
+
+Mapping to part: ice40lp384qn32
+Cell usage:
+SB_DFFER        50 uses
+SB_DFFNER       16 uses
+SB_DFFNR        17 uses
+SB_DFFNS        1 use
+SB_DFFR         45 uses
+SB_DFFS         2 uses
+SB_GB           1 use
+SB_LUT4         173 uses
+
+I/O ports: 51
+I/O primitives: 51
+SB_GB_IO       3 uses
+SB_IO          48 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   131 (34%)
+Total load per clock:
+   spi_slave|i_sys_clk: 1
+   spi_slave|i_sclk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 173 (45%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 173 = 173 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 27MB peak: 146MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Feb 06 19:42:35 2022
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation PiDRO_Implmnt its sbt path: D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt
+PiDRO_Implmnt: newer file D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.edf detected. Need to run "Import P&R Input Files"
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 5 seconds
+
+
+"D:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\edifparser.exe" "D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev" "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.edf " "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist" "-pQN32" -c --devicename iCE40LP384
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:30:22
+
+Parsing edif file: D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.edf...
+start to read sdc/scf file D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.scf
+sdc_reader OK D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/PiDRO.scf
+Stored edif netlist at D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-spi_slave...
+
+write Timing Constraint to D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: spi_slave
+
+EDF Parser run-time: 0 (sec)
+edif parser succeed.
+7:43:27 PM

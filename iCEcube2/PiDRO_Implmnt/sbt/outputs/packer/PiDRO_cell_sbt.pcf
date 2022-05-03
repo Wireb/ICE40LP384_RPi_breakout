@@ -1,0 +1,187 @@
+ble_pack SPI.shift_reg_106_LC_2_1_1 { SPI.shift_reg_RNO[106], SPI.shift_reg[106] }
+ble_pack SPI.shift_reg_105_LC_2_1_4 { SPI.shift_reg_RNO[105], SPI.shift_reg[105] }
+ble_pack SPI.shift_reg_107_LC_2_1_5 { SPI.shift_reg_RNO[107], SPI.shift_reg[107] }
+ble_pack SPI.shift_reg_108_LC_2_1_6 { SPI.shift_reg_RNO[108], SPI.shift_reg[108] }
+ble_pack SPI.shift_reg_0_LC_2_1_7 { SPI.shift_reg_0_THRU_LUT4_0, SPI.shift_reg[0] }
+clb_pack LT_2_1 { SPI.shift_reg_106_LC_2_1_1, SPI.shift_reg_105_LC_2_1_4, SPI.shift_reg_107_LC_2_1_5, SPI.shift_reg_108_LC_2_1_6, SPI.shift_reg_0_LC_2_1_7 }
+set_location LT_2_1 2 1
+ble_pack SPI.shift_reg_6_LC_2_2_0 { SPI.shift_reg_RNO[6], SPI.shift_reg[6] }
+ble_pack SPI.shift_reg_2_LC_2_2_1 { SPI.shift_reg_RNO[2], SPI.shift_reg[2] }
+ble_pack SPI.shift_reg_3_LC_2_2_2 { SPI.shift_reg_RNO[3], SPI.shift_reg[3] }
+ble_pack SPI.shift_reg_4_LC_2_2_3 { SPI.shift_reg_RNO[4], SPI.shift_reg[4] }
+ble_pack SPI.shift_reg_5_LC_2_2_4 { SPI.shift_reg_RNO[5], SPI.shift_reg[5] }
+ble_pack SPI.shift_reg_1_LC_2_2_5 { SPI.shift_reg_RNO[1], SPI.shift_reg[1] }
+ble_pack SPI.shift_reg_7_LC_2_2_6 { SPI.shift_reg_RNO[7], SPI.shift_reg[7] }
+ble_pack SPI.shift_reg_8_LC_2_2_7 { SPI.shift_reg_RNO[8], SPI.shift_reg[8] }
+clb_pack LT_2_2 { SPI.shift_reg_6_LC_2_2_0, SPI.shift_reg_2_LC_2_2_1, SPI.shift_reg_3_LC_2_2_2, SPI.shift_reg_4_LC_2_2_3, SPI.shift_reg_5_LC_2_2_4, SPI.shift_reg_1_LC_2_2_5, SPI.shift_reg_7_LC_2_2_6, SPI.shift_reg_8_LC_2_2_7 }
+set_location LT_2_2 2 2
+ble_pack SPI.shift_reg_10_LC_2_3_0 { SPI.shift_reg_RNO[10], SPI.shift_reg[10] }
+ble_pack SPI.shift_reg_9_LC_2_3_1 { SPI.shift_reg_RNO[9], SPI.shift_reg[9] }
+ble_pack SPI.shift_reg_11_LC_2_3_2 { SPI.shift_reg_RNO[11], SPI.shift_reg[11] }
+ble_pack SPI.shift_reg_12_LC_2_3_3 { SPI.shift_reg_RNO[12], SPI.shift_reg[12] }
+ble_pack SPI.shift_reg_13_LC_2_3_4 { SPI.shift_reg_RNO[13], SPI.shift_reg[13] }
+ble_pack SPI.shift_reg_14_LC_2_3_5 { SPI.shift_reg_RNO[14], SPI.shift_reg[14] }
+ble_pack SPI.shift_reg_15_LC_2_3_6 { SPI.shift_reg_RNO[15], SPI.shift_reg[15] }
+ble_pack SPI.shift_reg_16_LC_2_3_7 { SPI.shift_reg_RNO[16], SPI.shift_reg[16] }
+clb_pack LT_2_3 { SPI.shift_reg_10_LC_2_3_0, SPI.shift_reg_9_LC_2_3_1, SPI.shift_reg_11_LC_2_3_2, SPI.shift_reg_12_LC_2_3_3, SPI.shift_reg_13_LC_2_3_4, SPI.shift_reg_14_LC_2_3_5, SPI.shift_reg_15_LC_2_3_6, SPI.shift_reg_16_LC_2_3_7 }
+set_location LT_2_3 2 3
+ble_pack SPI.shift_reg_rst_fast_rep1_LC_3_1_4 { SPI.shift_reg_rst_fast_rep1_THRU_LUT4_0, SPI.shift_reg_rst_fast_rep1 }
+clb_pack LT_3_1 { SPI.shift_reg_rst_fast_rep1_LC_3_1_4 }
+set_location LT_3_1 3 1
+ble_pack SPI.shift_reg_109_LC_3_2_0 { SPI.shift_reg_RNO[109], SPI.shift_reg[109] }
+ble_pack SPI.shift_reg_110_LC_3_2_1 { SPI.shift_reg_RNO[110], SPI.shift_reg[110] }
+ble_pack SPI.shift_reg_111_LC_3_2_2 { SPI.shift_reg_RNO[111], SPI.shift_reg[111] }
+ble_pack SPI.shift_reg_112_LC_3_2_3 { SPI.shift_reg_RNO[112], SPI.shift_reg[112] }
+ble_pack SPI.shift_reg_113_LC_3_2_4 { SPI.shift_reg_RNO[113], SPI.shift_reg[113] }
+ble_pack SPI.shift_reg_114_LC_3_2_5 { SPI.shift_reg_RNO[114], SPI.shift_reg[114] }
+ble_pack SPI.shift_reg_115_LC_3_2_6 { SPI.shift_reg_RNO[115], SPI.shift_reg[115] }
+ble_pack SPI.shift_reg_116_LC_3_2_7 { SPI.shift_reg_RNO[116], SPI.shift_reg[116] }
+clb_pack LT_3_2 { SPI.shift_reg_109_LC_3_2_0, SPI.shift_reg_110_LC_3_2_1, SPI.shift_reg_111_LC_3_2_2, SPI.shift_reg_112_LC_3_2_3, SPI.shift_reg_113_LC_3_2_4, SPI.shift_reg_114_LC_3_2_5, SPI.shift_reg_115_LC_3_2_6, SPI.shift_reg_116_LC_3_2_7 }
+set_location LT_3_2 3 2
+ble_pack SPI.shift_reg_rst_LC_3_3_0 { SPI.shift_reg_rst_THRU_LUT4_0, SPI.shift_reg_rst }
+ble_pack SPI.shift_reg_rst_fast_0_LC_3_3_2 { SPI.shift_reg_rst_fast_0_THRU_LUT4_0, SPI.shift_reg_rst_fast_0 }
+ble_pack SPI.shift_reg_rst_fast_fast_LC_3_3_3 { SPI.shift_reg_rst_fast_fast_THRU_LUT4_0, SPI.shift_reg_rst_fast_fast }
+ble_pack SPI.shift_reg_rst_rep1_LC_3_3_5 { SPI.shift_reg_rst_rep1_THRU_LUT4_0, SPI.shift_reg_rst_rep1 }
+ble_pack SPI.shift_reg_rst_rep1_0_LC_3_3_6 { SPI.shift_reg_rst_rep1_0_THRU_LUT4_0, SPI.shift_reg_rst_rep1_0 }
+ble_pack SPI.shift_reg_rst_rep1_fast_LC_3_3_7 { SPI.shift_reg_rst_rep1_fast_THRU_LUT4_0, SPI.shift_reg_rst_rep1_fast }
+clb_pack LT_3_3 { SPI.shift_reg_rst_LC_3_3_0, SPI.shift_reg_rst_fast_0_LC_3_3_2, SPI.shift_reg_rst_fast_fast_LC_3_3_3, SPI.shift_reg_rst_rep1_LC_3_3_5, SPI.shift_reg_rst_rep1_0_LC_3_3_6, SPI.shift_reg_rst_rep1_fast_LC_3_3_7 }
+set_location LT_3_3 3 3
+ble_pack SPI.shift_reg_22_LC_3_4_0 { SPI.shift_reg_RNO[22], SPI.shift_reg[22] }
+ble_pack SPI.shift_reg_23_LC_3_4_1 { SPI.shift_reg_RNO[23], SPI.shift_reg[23] }
+ble_pack SPI.shift_reg_24_LC_3_4_2 { SPI.shift_reg_RNO[24], SPI.shift_reg[24] }
+ble_pack SPI.shift_reg_25_LC_3_4_3 { SPI.shift_reg_RNO[25], SPI.shift_reg[25] }
+ble_pack SPI.shift_reg_26_LC_3_4_4 { SPI.shift_reg_RNO[26], SPI.shift_reg[26] }
+ble_pack SPI.shift_reg_27_LC_3_4_5 { SPI.shift_reg_RNO[27], SPI.shift_reg[27] }
+ble_pack SPI.shift_reg_28_LC_3_4_6 { SPI.shift_reg_RNO[28], SPI.shift_reg[28] }
+ble_pack SPI.shift_reg_21_LC_3_4_7 { SPI.shift_reg_RNO[21], SPI.shift_reg[21] }
+clb_pack LT_3_4 { SPI.shift_reg_22_LC_3_4_0, SPI.shift_reg_23_LC_3_4_1, SPI.shift_reg_24_LC_3_4_2, SPI.shift_reg_25_LC_3_4_3, SPI.shift_reg_26_LC_3_4_4, SPI.shift_reg_27_LC_3_4_5, SPI.shift_reg_28_LC_3_4_6, SPI.shift_reg_21_LC_3_4_7 }
+set_location LT_3_4 3 4
+ble_pack SPI.shift_reg_56_LC_3_5_0 { SPI.shift_reg_RNO[56], SPI.shift_reg[56] }
+ble_pack SPI.shift_reg_60_LC_3_5_1 { SPI.shift_reg_RNO[60], SPI.shift_reg[60] }
+ble_pack SPI.shift_reg_55_LC_3_5_2 { SPI.shift_reg_RNO[55], SPI.shift_reg[55] }
+ble_pack SPI.shift_reg_57_LC_3_5_3 { SPI.shift_reg_RNO[57], SPI.shift_reg[57] }
+ble_pack SPI.shift_reg_58_LC_3_5_4 { SPI.shift_reg_RNO[58], SPI.shift_reg[58] }
+ble_pack SPI.shift_reg_59_LC_3_5_5 { SPI.shift_reg_RNO[59], SPI.shift_reg[59] }
+ble_pack SPI.shift_reg_30_LC_3_5_6 { SPI.shift_reg_RNO[30], SPI.shift_reg[30] }
+ble_pack SPI.shift_reg_29_LC_3_5_7 { SPI.shift_reg_RNO[29], SPI.shift_reg[29] }
+clb_pack LT_3_5 { SPI.shift_reg_56_LC_3_5_0, SPI.shift_reg_60_LC_3_5_1, SPI.shift_reg_55_LC_3_5_2, SPI.shift_reg_57_LC_3_5_3, SPI.shift_reg_58_LC_3_5_4, SPI.shift_reg_59_LC_3_5_5, SPI.shift_reg_30_LC_3_5_6, SPI.shift_reg_29_LC_3_5_7 }
+set_location LT_3_5 3 5
+ble_pack SPI.shift_reg_35_LC_3_6_0 { SPI.shift_reg_RNO[35], SPI.shift_reg[35] }
+ble_pack SPI.shift_reg_36_LC_3_6_1 { SPI.shift_reg_RNO[36], SPI.shift_reg[36] }
+ble_pack SPI.shift_reg_32_LC_3_6_2 { SPI.shift_reg_RNO[32], SPI.shift_reg[32] }
+ble_pack SPI.shift_reg_33_LC_3_6_3 { SPI.shift_reg_RNO[33], SPI.shift_reg[33] }
+ble_pack SPI.shift_reg_34_LC_3_6_4 { SPI.shift_reg_RNO[34], SPI.shift_reg[34] }
+ble_pack SPI.shift_reg_31_LC_3_6_5 { SPI.shift_reg_RNO[31], SPI.shift_reg[31] }
+ble_pack SPI.shift_reg_54_LC_3_6_6 { SPI.shift_reg_RNO[54], SPI.shift_reg[54] }
+ble_pack SPI.shift_reg_37_LC_3_6_7 { SPI.shift_reg_RNO[37], SPI.shift_reg[37] }
+clb_pack LT_3_6 { SPI.shift_reg_35_LC_3_6_0, SPI.shift_reg_36_LC_3_6_1, SPI.shift_reg_32_LC_3_6_2, SPI.shift_reg_33_LC_3_6_3, SPI.shift_reg_34_LC_3_6_4, SPI.shift_reg_31_LC_3_6_5, SPI.shift_reg_54_LC_3_6_6, SPI.shift_reg_37_LC_3_6_7 }
+set_location LT_3_6 3 6
+ble_pack SPI.shift_reg_38_LC_3_7_0 { SPI.shift_reg_RNO[38], SPI.shift_reg[38] }
+ble_pack SPI.shift_reg_39_LC_3_7_1 { SPI.shift_reg_RNO[39], SPI.shift_reg[39] }
+ble_pack SPI.shift_reg_40_LC_3_7_2 { SPI.shift_reg_RNO[40], SPI.shift_reg[40] }
+ble_pack SPI.shift_reg_41_LC_3_7_3 { SPI.shift_reg_RNO[41], SPI.shift_reg[41] }
+ble_pack SPI.shift_reg_42_LC_3_7_4 { SPI.shift_reg_RNO[42], SPI.shift_reg[42] }
+ble_pack SPI.shift_reg_51_LC_3_7_5 { SPI.shift_reg_RNO[51], SPI.shift_reg[51] }
+ble_pack SPI.shift_reg_52_LC_3_7_6 { SPI.shift_reg_RNO[52], SPI.shift_reg[52] }
+ble_pack SPI.shift_reg_53_LC_3_7_7 { SPI.shift_reg_RNO[53], SPI.shift_reg[53] }
+clb_pack LT_3_7 { SPI.shift_reg_38_LC_3_7_0, SPI.shift_reg_39_LC_3_7_1, SPI.shift_reg_40_LC_3_7_2, SPI.shift_reg_41_LC_3_7_3, SPI.shift_reg_42_LC_3_7_4, SPI.shift_reg_51_LC_3_7_5, SPI.shift_reg_52_LC_3_7_6, SPI.shift_reg_53_LC_3_7_7 }
+set_location LT_3_7 3 7
+ble_pack SPI.shift_reg_100_LC_4_1_1 { SPI.shift_reg_RNO[100], SPI.shift_reg[100] }
+ble_pack SPI.shift_reg_104_LC_4_1_2 { SPI.shift_reg_RNO[104], SPI.shift_reg[104] }
+ble_pack SPI.shift_reg_102_LC_4_1_3 { SPI.shift_reg_RNO[102], SPI.shift_reg[102] }
+ble_pack SPI.shift_reg_103_LC_4_1_4 { SPI.shift_reg_RNO[103], SPI.shift_reg[103] }
+ble_pack SPI.shift_reg_101_LC_4_1_6 { SPI.shift_reg_RNO[101], SPI.shift_reg[101] }
+ble_pack SPI.shift_reg_93_LC_4_1_7 { SPI.shift_reg_RNO[93], SPI.shift_reg[93] }
+clb_pack LT_4_1 { SPI.shift_reg_100_LC_4_1_1, SPI.shift_reg_104_LC_4_1_2, SPI.shift_reg_102_LC_4_1_3, SPI.shift_reg_103_LC_4_1_4, SPI.shift_reg_101_LC_4_1_6, SPI.shift_reg_93_LC_4_1_7 }
+set_location LT_4_1 4 1
+ble_pack SPI.shift_reg_117_LC_4_2_0 { SPI.shift_reg_RNO[117], SPI.shift_reg[117] }
+ble_pack SPI.shift_reg_118_LC_4_2_1 { SPI.shift_reg_RNO[118], SPI.shift_reg[118] }
+ble_pack SPI.shift_reg_88_LC_4_2_2 { SPI.shift_reg_RNO[88], SPI.shift_reg[88] }
+ble_pack SPI.shift_reg_89_LC_4_2_3 { SPI.shift_reg_RNO[89], SPI.shift_reg[89] }
+ble_pack SPI.shift_reg_90_LC_4_2_4 { SPI.shift_reg_RNO[90], SPI.shift_reg[90] }
+ble_pack SPI.shift_reg_87_LC_4_2_5 { SPI.shift_reg_RNO[87], SPI.shift_reg[87] }
+ble_pack SPI.shift_reg_91_LC_4_2_6 { SPI.shift_reg_RNO[91], SPI.shift_reg[91] }
+ble_pack SPI.shift_reg_92_LC_4_2_7 { SPI.shift_reg_RNO[92], SPI.shift_reg[92] }
+clb_pack LT_4_2 { SPI.shift_reg_117_LC_4_2_0, SPI.shift_reg_118_LC_4_2_1, SPI.shift_reg_88_LC_4_2_2, SPI.shift_reg_89_LC_4_2_3, SPI.shift_reg_90_LC_4_2_4, SPI.shift_reg_87_LC_4_2_5, SPI.shift_reg_91_LC_4_2_6, SPI.shift_reg_92_LC_4_2_7 }
+set_location LT_4_2 4 2
+ble_pack SPI.shift_reg_86_LC_4_3_0 { SPI.shift_reg_RNO[86], SPI.shift_reg[86] }
+ble_pack SPI.shift_reg_68_LC_4_3_1 { SPI.shift_reg_RNO[68], SPI.shift_reg[68] }
+ble_pack SPI.shift_reg_119_LC_4_3_2 { SPI.shift_reg_RNO[119], SPI.shift_reg[119] }
+ble_pack SPI.shift_reg_17_LC_4_3_3 { SPI.shift_reg_RNO[17], SPI.shift_reg[17] }
+ble_pack SPI.shift_reg_18_LC_4_3_4 { SPI.shift_reg_RNO[18], SPI.shift_reg[18] }
+ble_pack SPI.shift_reg_19_LC_4_3_5 { SPI.shift_reg_RNO[19], SPI.shift_reg[19] }
+ble_pack SPI.shift_reg_20_LC_4_3_6 { SPI.shift_reg_RNO[20], SPI.shift_reg[20] }
+ble_pack SPI.shift_reg_67_LC_4_3_7 { SPI.shift_reg_RNO[67], SPI.shift_reg[67] }
+clb_pack LT_4_3 { SPI.shift_reg_86_LC_4_3_0, SPI.shift_reg_68_LC_4_3_1, SPI.shift_reg_119_LC_4_3_2, SPI.shift_reg_17_LC_4_3_3, SPI.shift_reg_18_LC_4_3_4, SPI.shift_reg_19_LC_4_3_5, SPI.shift_reg_20_LC_4_3_6, SPI.shift_reg_67_LC_4_3_7 }
+set_location LT_4_3 4 3
+ble_pack SPI.shift_reg_62_LC_4_4_0 { SPI.shift_reg_RNO[62], SPI.shift_reg[62] }
+ble_pack SPI.shift_reg_64_LC_4_4_1 { SPI.shift_reg_RNO[64], SPI.shift_reg[64] }
+ble_pack SPI.shift_reg_85_LC_4_4_2 { SPI.shift_reg_RNO[85], SPI.shift_reg[85] }
+ble_pack SPI.shift_reg_65_LC_4_4_3 { SPI.shift_reg_RNO[65], SPI.shift_reg[65] }
+ble_pack SPI.shift_reg_66_LC_4_4_4 { SPI.shift_reg_RNO[66], SPI.shift_reg[66] }
+ble_pack SPI.shift_reg_63_LC_4_4_5 { SPI.shift_reg_RNO[63], SPI.shift_reg[63] }
+ble_pack SPI.shift_reg_61_LC_4_4_6 { SPI.shift_reg_RNO[61], SPI.shift_reg[61] }
+ble_pack SPI.shift_reg_69_LC_4_4_7 { SPI.shift_reg_RNO[69], SPI.shift_reg[69] }
+clb_pack LT_4_4 { SPI.shift_reg_62_LC_4_4_0, SPI.shift_reg_64_LC_4_4_1, SPI.shift_reg_85_LC_4_4_2, SPI.shift_reg_65_LC_4_4_3, SPI.shift_reg_66_LC_4_4_4, SPI.shift_reg_63_LC_4_4_5, SPI.shift_reg_61_LC_4_4_6, SPI.shift_reg_69_LC_4_4_7 }
+set_location LT_4_4 4 4
+ble_pack SPI.shift_reg_71_LC_4_5_0 { SPI.shift_reg_RNO[71], SPI.shift_reg[71] }
+ble_pack SPI.shift_reg_72_LC_4_5_1 { SPI.shift_reg_RNO[72], SPI.shift_reg[72] }
+ble_pack SPI.shift_reg_70_LC_4_5_2 { SPI.shift_reg_RNO[70], SPI.shift_reg[70] }
+ble_pack SPI.shift_reg_81_LC_4_5_3 { SPI.shift_reg_RNO[81], SPI.shift_reg[81] }
+ble_pack SPI.shift_reg_82_LC_4_5_4 { SPI.shift_reg_RNO[82], SPI.shift_reg[82] }
+ble_pack SPI.shift_reg_83_LC_4_5_5 { SPI.shift_reg_RNO[83], SPI.shift_reg[83] }
+ble_pack SPI.shift_reg_84_LC_4_5_6 { SPI.shift_reg_RNO[84], SPI.shift_reg[84] }
+ble_pack SPI.shift_reg_80_LC_4_5_7 { SPI.shift_reg_RNO[80], SPI.shift_reg[80] }
+clb_pack LT_4_5 { SPI.shift_reg_71_LC_4_5_0, SPI.shift_reg_72_LC_4_5_1, SPI.shift_reg_70_LC_4_5_2, SPI.shift_reg_81_LC_4_5_3, SPI.shift_reg_82_LC_4_5_4, SPI.shift_reg_83_LC_4_5_5, SPI.shift_reg_84_LC_4_5_6, SPI.shift_reg_80_LC_4_5_7 }
+set_location LT_4_5 4 5
+ble_pack SPI.shift_reg_rst_rep1_rep1_LC_4_6_0 { SPI.shift_reg_rst_rep1_rep1_THRU_LUT4_0, SPI.shift_reg_rst_rep1_rep1 }
+ble_pack SPI.shift_reg_rst_rep2_LC_4_6_1 { SPI.shift_reg_rst_rep2_THRU_LUT4_0, SPI.shift_reg_rst_rep2 }
+ble_pack SPI.shift_reg_rst_rep2_fast_LC_4_6_2 { SPI.shift_reg_rst_rep2_fast_THRU_LUT4_0, SPI.shift_reg_rst_rep2_fast }
+ble_pack SPI.shift_reg_rst_rep2_rep1_LC_4_6_3 { SPI.shift_reg_rst_rep2_rep1_THRU_LUT4_0, SPI.shift_reg_rst_rep2_rep1 }
+clb_pack LT_4_6 { SPI.shift_reg_rst_rep1_rep1_LC_4_6_0, SPI.shift_reg_rst_rep2_LC_4_6_1, SPI.shift_reg_rst_rep2_fast_LC_4_6_2, SPI.shift_reg_rst_rep2_rep1_LC_4_6_3 }
+set_location LT_4_6 4 6
+ble_pack SPI.shift_reg_46_LC_4_7_0 { SPI.shift_reg_RNO[46], SPI.shift_reg[46] }
+ble_pack SPI.shift_reg_47_LC_4_7_1 { SPI.shift_reg_RNO[47], SPI.shift_reg[47] }
+ble_pack SPI.shift_reg_48_LC_4_7_2 { SPI.shift_reg_RNO[48], SPI.shift_reg[48] }
+ble_pack SPI.shift_reg_49_LC_4_7_3 { SPI.shift_reg_RNO[49], SPI.shift_reg[49] }
+ble_pack SPI.shift_reg_50_LC_4_7_4 { SPI.shift_reg_RNO[50], SPI.shift_reg[50] }
+ble_pack SPI.shift_reg_43_LC_4_7_5 { SPI.shift_reg_RNO[43], SPI.shift_reg[43] }
+ble_pack SPI.shift_reg_44_LC_4_7_6 { SPI.shift_reg_RNO[44], SPI.shift_reg[44] }
+ble_pack SPI.shift_reg_45_LC_4_7_7 { SPI.shift_reg_RNO[45], SPI.shift_reg[45] }
+clb_pack LT_4_7 { SPI.shift_reg_46_LC_4_7_0, SPI.shift_reg_47_LC_4_7_1, SPI.shift_reg_48_LC_4_7_2, SPI.shift_reg_49_LC_4_7_3, SPI.shift_reg_50_LC_4_7_4, SPI.shift_reg_43_LC_4_7_5, SPI.shift_reg_44_LC_4_7_6, SPI.shift_reg_45_LC_4_7_7 }
+set_location LT_4_7 4 7
+ble_pack SPI.shift_reg_99_LC_5_1_0 { SPI.shift_reg_RNO[99], SPI.shift_reg[99] }
+ble_pack SPI.shift_reg_94_LC_5_1_1 { SPI.shift_reg_RNO[94], SPI.shift_reg[94] }
+ble_pack SPI.shift_reg_98_LC_5_1_2 { SPI.shift_reg_RNO[98], SPI.shift_reg[98] }
+ble_pack SPI.shift_reg_97_LC_5_1_3 { SPI.shift_reg_RNO[97], SPI.shift_reg[97] }
+ble_pack SPI.shift_reg_96_LC_5_1_4 { SPI.shift_reg_RNO[96], SPI.shift_reg[96] }
+ble_pack SPI.shift_reg_95_LC_5_1_6 { SPI.shift_reg_RNO[95], SPI.shift_reg[95] }
+clb_pack LT_5_1 { SPI.shift_reg_99_LC_5_1_0, SPI.shift_reg_94_LC_5_1_1, SPI.shift_reg_98_LC_5_1_2, SPI.shift_reg_97_LC_5_1_3, SPI.shift_reg_96_LC_5_1_4, SPI.shift_reg_95_LC_5_1_6 }
+set_location LT_5_1 5 1
+ble_pack SPI.shift_reg_rst_fast_LC_5_2_6 { SPI.shift_reg_rst_fast_THRU_LUT4_0, SPI.shift_reg_rst_fast }
+clb_pack LT_5_2 { SPI.shift_reg_rst_fast_LC_5_2_6 }
+set_location LT_5_2 5 2
+ble_pack SPI.SDO_LC_5_3_6 { SPI.SDO_RNO, SPI.SDO }
+clb_pack LT_5_3 { SPI.SDO_LC_5_3_6 }
+set_location LT_5_3 5 3
+ble_pack SPI.SDO_RNO_0_LC_5_4_7 { SPI.SDO_RNO_0 }
+clb_pack LT_5_4 { SPI.SDO_RNO_0_LC_5_4_7 }
+set_location LT_5_4 5 4
+ble_pack SPI.shift_reg_78_LC_5_5_1 { SPI.shift_reg_RNO[78], SPI.shift_reg[78] }
+ble_pack SPI.shift_reg_75_LC_5_5_2 { SPI.shift_reg_RNO[75], SPI.shift_reg[75] }
+ble_pack SPI.shift_reg_73_LC_5_5_3 { SPI.shift_reg_RNO[73], SPI.shift_reg[73] }
+ble_pack SPI.shift_reg_74_LC_5_5_4 { SPI.shift_reg_RNO[74], SPI.shift_reg[74] }
+ble_pack SPI.shift_reg_77_LC_5_5_5 { SPI.shift_reg_RNO[77], SPI.shift_reg[77] }
+ble_pack SPI.shift_reg_76_LC_5_5_6 { SPI.shift_reg_RNO[76], SPI.shift_reg[76] }
+ble_pack SPI.shift_reg_79_LC_5_5_7 { SPI.shift_reg_RNO[79], SPI.shift_reg[79] }
+clb_pack LT_5_5 { SPI.shift_reg_78_LC_5_5_1, SPI.shift_reg_75_LC_5_5_2, SPI.shift_reg_73_LC_5_5_3, SPI.shift_reg_74_LC_5_5_4, SPI.shift_reg_77_LC_5_5_5, SPI.shift_reg_76_LC_5_5_6, SPI.shift_reg_79_LC_5_5_7 }
+set_location LT_5_5 5 5
+ble_pack CONSTANT_ONE_LUT4_LC_5_6_7 { CONSTANT_ONE_LUT4 }
+clb_pack LT_5_6 { CONSTANT_ONE_LUT4_LC_5_6_7 }
+set_location LT_5_6 5 6
+set_location SPI_SCK_ibuf_gb_io_gb 0 5
+set_io SPI_SDI 13
+set_io SPI_SCK 15
+set_io SPI_SS 14
+set_io SPI_SDO 12
+set_io LED 18

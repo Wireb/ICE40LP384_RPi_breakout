@@ -1,0 +1,80 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:31:51
+
+* File Generated:     May 3 2022 18:25:33
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40LP384
+    Package:       QN32
+
+Design statistics:
+------------------
+    FFs:                  133
+    LUTs:                 135
+    RAMs:                 0
+    IOBs:                 5
+    GBs:                  1
+    PLLs:                 0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 135/384
+        Combinational Logic Cells: 2        out of   384       0.520833%
+        Sequential Logic Cells:    133      out of   384       34.6354%
+        Logic Tiles:               23       out of   48        47.9167%
+    Registers: 
+        Logic Registers:           133      out of   384       34.6354%
+        IO Registers:              0        out of   280       0
+    Block RAMs:                    0        out of   0         -1.#IND%
+    Pins:
+        Input Pins:                3        out of   21        14.2857%
+        Output Pins:               2        out of   21        9.52381%
+        InOut Pins:                0        out of   21        0%
+    Global Buffers:                1        out of   8         12.5%
+    PLLs:                          0        out of   0       
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 0        out of   6         0%
+    Bank 1: 1        out of   5         20%
+    Bank 0: 0        out of   6         0%
+    Bank 2: 4        out of   4         100%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    13          Input      SB_LVCMOS    No       2        Simple Input   SPI_SDI  
+    14          Input      SB_LVCMOS    No       2        Simple Input   SPI_SS   
+    15          Input      SB_LVCMOS    No       2        Simple Input   SPI_SCK  
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    12          Output     SB_LVCMOS    No       2        Simple Output  SPI_SDO  
+    18          Output     SB_LVCMOS    No       1        Simple Output  LED      
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name  
+    -------------  -------  ---------  ------  -----------  
+    3              3                   21      SPI_SCK_c_g  

@@ -1,0 +1,4 @@
+@W: CD277 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":135:3:135:7|Port direction mismatch between component and entity
+@W: CG296 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":74:1:74:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":77:31:77:35|Referenced variable input is not in sensitivity list.
+

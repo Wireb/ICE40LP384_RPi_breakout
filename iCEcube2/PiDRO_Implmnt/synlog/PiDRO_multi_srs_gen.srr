@@ -1,0 +1,14 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_comp.srs changed - recompiling
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":95:7:95:11|Selected library: work cell: PiDRO view struct as top level
+@N: NF107 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":95:7:95:11|Selected library: work cell: PiDRO view struct as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 03 18:25:16 2022
+
+###########################################################]

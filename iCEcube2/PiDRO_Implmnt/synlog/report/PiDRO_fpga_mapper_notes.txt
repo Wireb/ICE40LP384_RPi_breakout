@@ -1,0 +1,24 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :|Tristate driver tri0_inst (in view: work.PiDRO(struct)) on net counts[119] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MO111 :|Tristate driver tri1_inst (in view: work.PiDRO(struct)) on net counts[118] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MO111 :|Tristate driver tri2_inst (in view: work.PiDRO(struct)) on net counts[117] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MO111 :|Tristate driver tri3_inst (in view: work.PiDRO(struct)) on net counts[116] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MO111 :|Tristate driver tri4_inst (in view: work.PiDRO(struct)) on net counts[115] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MO111 :|Tristate driver tri5_inst (in view: work.PiDRO(struct)) on net counts[114] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MO111 :|Tristate driver tri6_inst (in view: work.PiDRO(struct)) on net counts[113] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MO111 :|Tristate driver tri7_inst (in view: work.PiDRO(struct)) on net counts[112] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MO111 :|Tristate driver tri8_inst (in view: work.PiDRO(struct)) on net counts[111] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MO111 :|Tristate driver tri9_inst (in view: work.PiDRO(struct)) on net counts[110] (in view: work.PiDRO(struct)) has its enable tied to GND.
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhdl":173:1:173:3|Replicating instance SPI.shift_reg_rst (in view: work.PiDRO(struct)) with 120 loads 3 times to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhdl":173:1:173:3|Replicating instance SPI.shift_reg_rst (in view: work.PiDRO(struct)) with 30 loads 2 times to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhdl":173:1:173:3|Replicating instance SPI.shift_reg_rst_fast (in view: work.PiDRO(struct)) with 30 loads 2 times to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhdl":173:1:173:3|Replicating instance SPI.shift_reg_rst_rep1 (in view: work.PiDRO(struct)) with 30 loads 2 times to improve timing.
+@N: FX271 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhdl":173:1:173:3|Replicating instance SPI.shift_reg_rst_rep2 (in view: work.PiDRO(struct)) with 30 loads 2 times to improve timing.
+@N: FX1016 :"d:\cam_offload_cache\icecube2_projects\pidro\pidro\pidro.vhdl":97:3:97:9|SB_GB_IO inserted on the port SPI_SCK.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

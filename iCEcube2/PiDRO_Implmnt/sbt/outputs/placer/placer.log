@@ -1,0 +1,165 @@
+* ******************************************************************************
+
+* iCEcube Placer
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:55:50
+
+* File Generated:     May 3 2022 18:25:22
+
+* Purpose:            
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Executing : D:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-PiDRO --outdir D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer --device-file D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev --package QN32 --deviceMarketName iCE40LP384 --sdc-file D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40LP384.lib --effort_level std --out-sdc-file D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer\PiDRO_pl.sdc
+I2004: Option and Settings Summary
+=============================================================
+Device file          - D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev
+Package              - QN32
+Design database      - D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-PiDRO
+SDC file             - D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer
+Timing library       - D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40LP384.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-PiDRO/BFPGA_DESIGN_ep
+I2065: Reading device file : D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+W2715: Warning for set_io Constraint: Ignoring pin assignment for X_A, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for A_A, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for B_A, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for A_B, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for A_R, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for Z_B, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for Z_R, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for X_B, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for X_R, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for Y_A, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for Z_A, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for B_B, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for B_R, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for Y_B, as it is not connected to any PAD
+W2715: Warning for set_io Constraint: Ignoring pin assignment for Y_R, as it is not connected to any PAD
+
+Input Design Statistics
+    Number of LUTs      	:	121
+    Number of DFFs      	:	133
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	0
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	4
+    Number of GBIOs     	:	1
+    Number of GBs       	:	0
+    Number of WarmBoot  	:	0
+
+
+Phase 1
+I2077: Start design legalization
+W2216: SB_GB_IO 'SPI_SCK_ibuf_gb_io' is assigned to a non-GB pin '15'. Replacing it with SB_IO 'SPI_SCK_ibuf_gb_io' and SB_GB 'SPI_SCK_ibuf_gb_io_gb'
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	13
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	13
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+Warning-1034: Found non-unate timing arc, from pin "PACKAGEPIN" to pin "DIN0" of instance "SPI_SCK_ibuf_gb_io", in the clock network. Converting the timing arc to positive-unate
+
+Design Statistics after Packing
+    Number of LUTs      	:	135
+    Number of DFFs      	:	133
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	0
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	133
+        LUT, DFF and CARRY	:	0
+    Combinational LogicCells
+        Only LUT         	:	2
+        CARRY Only       	:	0
+        LUT with CARRY   	:	0
+    LogicCells                  :	135/384
+    PLBs                        :	18/48
+    BRAMs                       :	0/0
+    IOs and GBIOs               :	5/21
+
+
+I2088: Phase 3, elapsed time : 0.2 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.0 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.1 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 9.4 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	135
+    Number of DFFs      	:	133
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	0
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	5
+    Number of GBIOs     	:	0
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+
+Device Utilization Summary
+    LogicCells                  :	135/384
+    PLBs                        :	23/48
+    BRAMs                       :	0/0
+    IOs and GBIOs               :	5/21
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 1
+Clock: PiDRO|SPI_SCK | Frequency: 354.29 MHz | Target: 249.38 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 9.9 sec.
+

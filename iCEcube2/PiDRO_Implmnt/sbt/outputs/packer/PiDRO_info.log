@@ -1,0 +1,97 @@
+* ******************************************************************************
+
+* iCEcube Packer
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:31:51
+
+* File Generated:     May 3 2022 18:25:33
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Command Line: D:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\packer.exe  D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev  D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\netlist\oadb-PiDRO  --package  QN32  --outdir  D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\packer  --translator  D:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl  --src_sdc_file  D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer\PiDRO_pl.sdc  --dst_sdc_file  D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\packer\PiDRO_pk.sdc  --devicename  iCE40LP384  
+
+***** Device Info *****
+Chip: iCE40LP384
+Package: QN32
+Size: 6 X 8
+
+***** Design Utilization Info *****
+Design: PiDRO
+Used Logic Cell: 135/384
+Used Logic Tile: 23/48
+Used IO Cell:    5/56
+Used Bram Cell For iCE40: 0/0
+Used PLL For iCE40: 0/0
+Ram Cascading Used: 0
+Lut Cascading Used: 0
+
+***** Clock Info *****
+Clock Domain: SPI_SCK_c_g
+Clock Source: SPI_SCK_ibuf_gb_io_gb_input 
+Clock Driver: SPI_SCK_ibuf_gb_io_gb (ICE_GB)
+Driver Position: (0, 5, 0)
+Fanout to FF: 133
+Fanout to Tile: 21
+
+
+***** Placement Info *****
+Logic cell utilization per tile
+    . . . . + . . . 
+   ----------------
+ 9|                 
+ 8|   0 0 0 0 0 0   
+ 7|   0 0 8 8 0 0   
+ 6|   0 0 8 4 1 0   
+ 5|   0 0 8 8 7 0   
+ 4|   0 0 8 8 1 0   
+ 3|   0 8 6 8 1 0   
+ 2|   0 8 8 8 1 0   
+ 1|   0 5 1 6 6 0   
+ 0|                 
+
+Maximum number of Logic cells per logic tile: 8
+Average number of Logic cells per logic tile: 5.87
+
+***** Input Pin Density Info *****
+Number of input nets per logic tile
+     .  .  .  .  +  .  .  . 
+   ------------------------
+ 9|                         
+ 8|     0  0  0  0  0  0    
+ 7|     0  0 11  9  0  0    
+ 6|     0  0 10  1  0  0    
+ 5|     0  0 10 11  8  0    
+ 4|     0  0  9 10  1  0    
+ 3|     0 10  1 12  2  0    
+ 2|     0  9 10 11  1  0    
+ 1|     0  6  1  8  7  0    
+ 0|                         
+
+Maximum number of input nets per logic tile: 12
+Average number of input nets per logic tile: 7.18
+
+Number of input pins per logic tile
+     .  .  .  .  +  .  .  . 
+   ------------------------
+ 9|                         
+ 8|     0  0  0  0  0  0    
+ 7|     0  0 16 16  0  0    
+ 6|     0  0 16  4  0  0    
+ 5|     0  0 16 16 14  0    
+ 4|     0  0 16 16  1  0    
+ 3|     0 16  6 16  2  0    
+ 2|     0 16 16 16  1  0    
+ 1|     0  9  1 12 12  0    
+ 0|                         
+
+Maximum number of input pins per logic tile: 16
+Average number of input pins per logic tile: 11.55
+
+***** Run Time Info *****
+Run Time:  0

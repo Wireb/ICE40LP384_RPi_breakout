@@ -1,0 +1,13 @@
+D:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt   -part iCE40LP384  -package QN32    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synlog\report\PiDRO_premap.xml  -oedif  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO.edf  -conchk_prepass  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO_cck.rpt   -autoconstraint  -freq 1.000   D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_prem.srd  -qsap  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO.sap  -devicelib  D:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -ologparam  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\syntmp\PiDRO.plg  -osyn  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_prem.srd  -prjdir  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\  -prjname  PiDRO_syn  -log  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synlog\PiDRO_premap.srr 
+rc:1 success:1 runtime:1
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO.edf|io:o|time:0|size:0|exec:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO_cck.rpt|io:o|time:1651620317|size:2271|exec:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_mult.srs|io:i|time:1651620316|size:2123|exec:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_prem.srd|io:o|time:1651620317|size:16316|exec:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\PiDRO.sap|io:o|time:1651620317|size:2394|exec:0
+file:D:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1644170077|size:224837|exec:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\syntmp\PiDRO.plg|io:o|time:1651620317|size:0|exec:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_prem.srd|io:o|time:1651620317|size:16316|exec:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synlog\PiDRO_premap.srr|io:o|time:1651620317|size:22601|exec:0
+file:D:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1644170074|size:17853440|exec:1
+file:D:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1644170075|size:32355840|exec:1

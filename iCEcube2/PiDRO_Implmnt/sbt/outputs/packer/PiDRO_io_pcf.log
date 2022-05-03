@@ -1,0 +1,5 @@
+INPUT  SPI_SDI 	 location (5, 0, 1) 	 13 	 
+INPUT  SPI_SCK 	 location (6, 0, 0) 	 15 	 
+INPUT  SPI_SS 	 location (6, 0, 1) 	 14 	 
+OUTPUT SPI_SDO 	 location (5, 0, 0) 	 12 	 
+OUTPUT LED 	 location (7, 4, 0) 	 18 	 

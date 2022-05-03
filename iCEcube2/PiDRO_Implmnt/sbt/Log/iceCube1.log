@@ -1,0 +1,60 @@
+7:43:45 PM
+
+
+"D:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/sbt/netlist/oadb-spi_slave" --outdir "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer" --device-file "D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev" --package QN32 --deviceMarketName iCE40LP384 --sdc-file "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40LP384.lib" --effort_level std --out-sdc-file "D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer\spi_slave_pl.sdc"
+starting placerrunning placerExecuting : D:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/sbt/netlist/oadb-spi_slave --outdir D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer --device-file D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev --package QN32 --deviceMarketName iCE40LP384 --sdc-file D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40LP384.lib --effort_level std --out-sdc-file D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer\spi_slave_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:55:52
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev
+Package              - QN32
+Design database      - D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/sbt/netlist/oadb-spi_slave
+SDC file             - D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt\sbt\outputs\placer
+Timing library       - D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40LP384.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: D:/cam_offload_cache/iCEcube2_projects/PiDRO/PiDRO/PiDRO_Implmnt/sbt/netlist/oadb-spi_slave/BFPGA_DESIGN_ep
+I2065: Reading device file : D:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	173
+    Number of DFFs      	:	131
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	0
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	48
+    Number of GBIOs     	:	3
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+
+
+Phase 1
+I2077: Start design legalization
+I3013: Unable to fit the design into the selected device/package
+DEVICE IO Count:
+ (a) Regular IOs (SB_IO/SB_GB_IO) on the chip  - 17
+ (b) SPI IOs on the chip                       - 4
+                                               ------
+ Total IO Capacity of Chip (a + b)             - 21
+                                               ------
+DESIGN IO Count:
+ (a) Regular IOs(auto placement)            - 51
+ (b) SPI Constrained IOs in the design      - 0
+                                            ------
+ Total IO count of the design (a + b)       - 51
+                                            ------
+E2081: Feasibility check for IO Placement failed
+E2080: Design legalizer failed: Design can not be legalized
+E2055: Error while doing placement of the design
+7:47:09 PM

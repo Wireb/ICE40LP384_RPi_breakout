@@ -1,0 +1,7 @@
+D:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_comp.srs  -osyn  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_mult.srs  -log  D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synlog\PiDRO_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_comp.srs|io:i|time:1651620315|size:10972|exec:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\PiDRO_mult.srs|io:o|time:1651620316|size:2123|exec:0
+file:D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synlog\PiDRO_multi_srs_gen.srr|io:o|time:1651620316|size:819|exec:0
+file:D:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1644170075|size:3128320|exec:1
+file:D:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1644170076|size:3947520|exec:1

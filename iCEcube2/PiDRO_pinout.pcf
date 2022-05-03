@@ -1,0 +1,23 @@
+set_io Y_R 1
+set_io Y_B 2
+set_io Y_A 5
+set_io X_A 6
+set_io X_B 7
+set_io X_R 8
+set_io SPI_SDO 12
+set_io SPI_SDI 13
+set_io SPI_SCK 15
+set_io SPI_SS 14
+set_io LED 18
+set_io CLK 19
+set_io B_R 20
+set_io B_B 22
+set_io B_A 23
+set_io A_B 26
+set_io A_A 27
+set_io A_R 29
+set_io Z_R 30
+set_io Z_A 32
+set_io Z_B 31
+
+

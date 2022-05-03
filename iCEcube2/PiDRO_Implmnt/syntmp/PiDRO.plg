@@ -1,0 +1,12 @@
+@P:  Worst Slack : -0.708
+@P:  PiDRO|SPI_SCK - Estimated Frequency : 211.9 MHz
+@P:  PiDRO|SPI_SCK - Requested Frequency : 249.3 MHz
+@P:  PiDRO|SPI_SCK - Estimated Period : 4.718
+@P:  PiDRO|SPI_SCK - Requested Period : 4.011
+@P:  PiDRO|SPI_SCK - Slack : -0.708
+@P: PiDRO Part : ice40lp384qn32
+@P: PiDRO I/O primitives : 5
+@P: PiDRO I/O Register bits : 0
+@P: PiDRO Register bits (Non I/O) : 133 (34%)
+@P: PiDRO Total Luts : 121 (31%)
+@P:  CPU Time : 0h:00m:00s

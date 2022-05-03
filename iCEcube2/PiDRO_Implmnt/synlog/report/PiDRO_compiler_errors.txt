@@ -1,0 +1,6 @@
+@E: CL219 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":31:2:31:6|Multiple non-tristate drivers for net count(23 downto 0) in up_down_counter
+@E: CL229 :"D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl":31:2:31:6|Unresolved tristate drivers for net count(23 downto 0) in up_down_counter
+@E: MF420 |Netlist read from file D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO_Implmnt\synwork\layer0.srs failed
+@E:Cannot find top netlist, aborting.Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
+

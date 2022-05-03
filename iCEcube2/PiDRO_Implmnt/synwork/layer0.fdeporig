@@ -1,0 +1,28 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\cam_offload_cache\\iCEcube2_projects\\PiDRO\\PiDRO\\PiDRO_Implmnt\\synwork\\PiDRO_comp.srs|-autotop|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_vhdl.exe":1644170075
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\location.map":1644170083
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std.vhd":1644170083
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1644170083
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std1164.vhd":1644170083
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\numeric.vhd":1644170083
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1644170083
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\arith.vhd":1644170083
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\unsigned.vhd":1644170083
+#CUR:"D:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\hyperents.vhd":1644170083
+#CUR:"D:\\cam_offload_cache\\iCEcube2_projects\\PiDRO\\PiDRO\\PiDRO.vhdl":1651620313
+0 "D:\cam_offload_cache\iCEcube2_projects\PiDRO\PiDRO\PiDRO.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work pidro struct 0
+module work pidro 0
+arch work spi_shifter rtl 0
+module work spi_shifter 0
+arch work up_down_counter rtl 0
+module work up_down_counter 0

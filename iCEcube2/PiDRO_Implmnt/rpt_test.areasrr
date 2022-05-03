@@ -1,0 +1,35 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40LP384QN32 (Lattice)
+
+--------------------------------------------------------------------
+########   Utilization report for  Top level view:   test   ########
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     24                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block test:	24 (32.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       24                 100 %                
+CARRYS     23                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block test:	47 (62.67 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     2                  100 %                
+=================================================
+Total IO PADS in the block test:	2 (2.67 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

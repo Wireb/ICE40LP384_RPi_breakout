@@ -1,0 +1,26 @@
+---------------------------------------
+Resource Usage Report for PiDRO 
+
+Mapping to part: ice40lp384qn32
+Cell usage:
+GND             1 use
+SB_DFFN         120 uses
+SB_DFFNE        1 use
+SB_DFFNR        12 uses
+VCC             1 use
+SB_LUT4         121 uses
+
+I/O ports: 20
+I/O primitives: 5
+SB_GB_IO       1 use
+SB_IO          4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   133 (34%)
+
+@S |Mapping Summary:
+Total  LUTs: 121 (31%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 121 = 121 
+
